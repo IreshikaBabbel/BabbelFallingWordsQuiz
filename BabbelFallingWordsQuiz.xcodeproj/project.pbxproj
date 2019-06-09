@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5AA22AD30C70039D64D /* AppDelegate.swift */; };
-		8806E5AD22AD30C70039D64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5AC22AD30C70039D64D /* ViewController.swift */; };
 		8806E5B022AD30C70039D64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5AE22AD30C70039D64D /* Main.storyboard */; };
 		8806E5B222AD30CB0039D64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5B122AD30CB0039D64D /* Assets.xcassets */; };
 		8806E5B522AD30CB0039D64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5B322AD30CB0039D64D /* LaunchScreen.storyboard */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		8806E5A722AD30C70039D64D /* BabbelFallingWordsQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabbelFallingWordsQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8806E5AA22AD30C70039D64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8806E5AC22AD30C70039D64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8806E5AF22AD30C70039D64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8806E5B122AD30CB0039D64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8806E5B422AD30CB0039D64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,9 +75,13 @@
 		8806E5A922AD30C70039D64D /* BabbelFallingWordsQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				8806E5CF22AD31080039D64D /* Views */,
+				8806E5CE22AD31000039D64D /* Models */,
+				8806E5CD22AD30F00039D64D /* Resources */,
+				8806E5CC22AD30E80039D64D /* Manager */,
+				8806E5CB22AD30DE0039D64D /* Utilities */,
+				8806E5CA22AD30D60039D64D /* Tests */,
 				8806E5AA22AD30C70039D64D /* AppDelegate.swift */,
-				8806E5AC22AD30C70039D64D /* ViewController.swift */,
-				8806E5AE22AD30C70039D64D /* Main.storyboard */,
 				8806E5B122AD30CB0039D64D /* Assets.xcassets */,
 				8806E5B322AD30CB0039D64D /* LaunchScreen.storyboard */,
 				8806E5B622AD30CB0039D64D /* Info.plist */,
@@ -94,6 +96,57 @@
 				8806E5C122AD30CB0039D64D /* Info.plist */,
 			);
 			path = BabbelFallingWordsQuizTests;
+			sourceTree = "<group>";
+		};
+		8806E5CA22AD30D60039D64D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8806E5CB22AD30DE0039D64D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8806E5CC22AD30E80039D64D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8806E5CD22AD30F00039D64D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8806E5CE22AD31000039D64D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8806E5CF22AD31080039D64D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8806E5AE22AD30C70039D64D /* Main.storyboard */,
+				8806E5D022AD31140039D64D /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8806E5D022AD31140039D64D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8806E5AD22AD30C70039D64D /* ViewController.swift in Sources */,
 				8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,184 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001130ED4612916A92CF1199275EAC2D /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DB4AD700F3105D21D4BF8FC285C3464 /* POPAnimator.mm */; };
-		01CBF84B59631CF22CA9C8888A5F4202 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EA54759C543EEAC351A620308EB2CE /* POPCGUtils.mm */; };
-		0745647F38F4F56D4FD859D73ADA4986 /* Promise+All.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D5861D4E61F214A74F1C3945B95078 /* Promise+All.swift */; };
-		07B65C139357208C8EBAE04139093B8B /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2752A9F2DCB4EA147E510CCBBA06EE6C /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AF235C870A3B64E6CDFD98E1F425D00 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F58E238D78453278F2E3B0BA8485746B /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0BC041393BF7262727ABC9585D144A54 /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = B00797966E812680A71A832F75F27B75 /* FBLPromise+Testing.h */; };
-		0D5D895ADA2C58B2ABC8E4A3F75381B9 /* FBLPromise+Recover.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = EE376825D5A94EB2A5F48B76F619D816 /* FBLPromise+Recover.h */; };
-		11A10CE6EBCE5B59D5C7DBBD5872CC70 /* FBLPromise+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = A01912B35BFAC94604A5BE14FEF67244 /* FBLPromise+Delay.m */; };
-		127921388D3CDBFFF317B53DD8BC6369 /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF7EA94C2C3356802DD71453B049C22 /* FBLPromises.h */; };
-		1764B04EE5F271FF19F8DA6600216193 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F161966B37E1255EDC6521B297B367 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		17B60FC819E4D103FF03E014B56F37F7 /* FBLPromise+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9545E3A11D2C874453AD209852674D /* FBLPromise+Catch.m */; };
-		193E301FE242AF0CE32E45F4B13FB808 /* Promise+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8915626EFFD43962B2FE832AEB4D0 /* Promise+Async.swift */; };
+		0745647F38F4F56D4FD859D73ADA4986 /* Promise+All.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0D8A69848A431B5060399A6A34925 /* Promise+All.swift */; };
+		0BC041393BF7262727ABC9585D144A54 /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA9EC0B05758DE5EF955182E6F9B82C /* FBLPromise+Testing.h */; };
+		0BE22679E8C195AAFD739BA206CB0C2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EB539A57B6F7CBF5F5F61AEC46A /* Foundation.framework */; };
+		0D5D895ADA2C58B2ABC8E4A3F75381B9 /* FBLPromise+Recover.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4B2C8AE1EC4C0708EE9E53DFBF13A6A9 /* FBLPromise+Recover.h */; };
+		11A10CE6EBCE5B59D5C7DBBD5872CC70 /* FBLPromise+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 717331112CB59312682A4B413ABE5212 /* FBLPromise+Delay.m */; };
+		127921388D3CDBFFF317B53DD8BC6369 /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2B39D912DEEB025285FF2BE1FA7F80 /* FBLPromises.h */; };
+		17B60FC819E4D103FF03E014B56F37F7 /* FBLPromise+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAE9C8A6ACD765AAEEC786160BDE89F /* FBLPromise+Catch.m */; };
+		193E301FE242AF0CE32E45F4B13FB808 /* Promise+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725E5604507920528C9A381A44F2068D /* Promise+Async.swift */; };
 		1B909C7E134BED70422CF6FE47072673 /* Pods-BabbelFallingWordsQuizTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D474CDA677F02C78D97DBA2439A123 /* Pods-BabbelFallingWordsQuizTests-dummy.m */; };
-		1C8298055AD1480907E4F310A499F629 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F31087B1BEC9A62770A8DB3A67567C /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CC14F9375049B82AD1EA4894D8B2995 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBDA0111C6A98D5F7743C3B50217F2B /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F72C906185AE752758774CF85C92A0E /* Promise+Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43C02C21E121B329A4E294F1E59313 /* Promise+Await.swift */; };
-		202812BF7D9E863E4BF63024749CDA0E /* FBLPromises.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7AF7EA94C2C3356802DD71453B049C22 /* FBLPromises.h */; };
-		20BD543D58705CD70CE70C1FFF9ED0C2 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = EE99E1B765526F9520D4B9E4FB22D38D /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		216C5647A5AE852AA38C7DDAF6383B43 /* FBLPromise+Retry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F56A99049CF07D5015D80C9F4A11D /* FBLPromise+Retry.m */; };
-		217761D6778EB6B68CD1CF58938805DE /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 362BBE7AB2C6AD8ACD920783F55730F3 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2201268C71F84DA87176782C31C2426D /* FBLPromise+Wrap.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C47D17D5ED4D88649B611DC2308B035D /* FBLPromise+Wrap.h */; };
-		22A8C3DBAFD6129AED8E80A6186FC63C /* PromiseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F954EE6A1B9FE72E1275DFE6BC7EF /* PromiseError.swift */; };
-		22C6D5CD7615913915763DD9FCE9D2BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */; };
-		235DC04E36E5EEB331F1D244695B0BEB /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 684721EBC20FE38505AFD8E7A20F5661 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23FB70BDC9FD374588BD3A079B7DE679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */; };
-		241B111928E20BFCBCF4B2D35BB59AE4 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BB3BA3DD363F76008C1E1725871EC0 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24DC00A2FEAB68E3C96F2A5567365927 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2334FDFF955C1AE97D9DF8DDF269D5F7 /* POPMath.mm */; };
-		279893782157EB291AA87E47895301CB /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5C4FB1A1D5EA0521E8E2F2110F49A7 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2814D12DF7BBE14AC98DE67F11E763F0 /* fluid-slider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1688E3AF0E5851A916C0179201D5C65 /* fluid-slider-dummy.m */; };
-		29CC53AE263F0E9BAD5881A07F4AD6CF /* fluid-slider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF3BE48DB296A5A4CC81B6A56163B71 /* fluid-slider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F8DE2A9A0A9928333453C86F7F6E745 /* FBLPromise+Timeout.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = AE4823B24EAB8695C4E1881E45599543 /* FBLPromise+Timeout.h */; };
-		30D3F1BED5D42A82D251B6A050848D20 /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = C47D17D5ED4D88649B611DC2308B035D /* FBLPromise+Wrap.h */; };
-		33EC554DB0111A43BEACE2149C9C15B1 /* Promise+Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA9B30E262B032202E141F2717249F /* Promise+Race.swift */; };
-		35305036FA96E027DECAA6D53C158795 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5805656F3E096E64D10CE65EB5DBCC2 /* TransformationMatrix.cpp */; };
-		36AE2DBE5A2F7514ADE1D03ED0C390EB /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96751FBF017F8188773844D7D312930C /* POPAnimationRuntime.mm */; };
-		385FE2FFF67DC748B42B94C8E961A588 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF4CBAEC51BAC61675BC8D529F77242 /* FBLPromises.framework */; };
-		3920F4A2518028380F7EEFD9D5ED8A31 /* PromisesObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C662D94B820C7A2B273C73BAFF7726 /* PromisesObjC-dummy.m */; };
-		395B9B7465A368BC270B5C7316F945F4 /* FBLPromise+Await.h in Headers */ = {isa = PBXBuildFile; fileRef = 883D7E65AA5ED8A386256A7E8C389102 /* FBLPromise+Await.h */; };
-		399BD14E6BD5F0BAC888A09029F55547 /* FBLPromiseError.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 312D176B74895F80AE0FDE3844311D02 /* FBLPromiseError.h */; };
-		3A7FEFE35B6BE48D3F04388DB39E56E3 /* Promise+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4EC96B34E3A691F898D6EBE64DA2B /* Promise+Retry.swift */; };
-		3E22C28740DA771C8DE7993CA735C428 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA941903C3F734FE43A2E0B4BE59846 /* FBLPromise.m */; };
-		3F59957852E151697B1E102B648C0602 /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = A69D01E8C5C96B110CCF99A14927D2BD /* FBLPromise+Retry.h */; };
-		42D9B45DE1EC9DC67207E114B36C2906 /* FBLPromise+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CA0D74998A3DBF216324D8DEEA8497 /* FBLPromise+Reduce.h */; };
-		436A4C7612550A6511F67D75C17832FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */; };
-		46556874C0812D36A49FD5EE563734AE /* FBLPromise+Wrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2076ACA290F00540FB7E3C5C487384 /* FBLPromise+Wrap.m */; };
-		470ED7FC500846C43A963EAF06A5EE22 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EE90833F2C6D1EA553EDFE85E9529C78 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		474A4F0127C55454DF44549E89A9F045 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EF5CB84AC30FF3195CFDAECD913186 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		479E4A66FAC9CF19D4560EE885CE7E56 /* FBLPromise+Then.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7FA7D05E19ADA68B15D94B669C84C00D /* FBLPromise+Then.h */; };
-		47F84AA49D95C32BA06B848CA94C3CF1 /* Promise+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C47D2A4CD2887F934506AC2600418 /* Promise+Any.swift */; };
-		48B1B69D2B0C4E866F689C30F3E40604 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE39230D6D2E96CE67DD6204A80A40D7 /* POPDecayAnimation.mm */; };
-		49D0195E879BF28345DF7A9215B59F1A /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC9E56E9E2E86BF4FFECF4BF8F3E911 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4CA201C60377F19D331884FA6926D313 /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1224855BC3751BB7CB4A6B14CC4B22 /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E719AA600AC46C16A2AAEF51FC72166 /* FBLPromise+Any.m in Sources */ = {isa = PBXBuildFile; fileRef = BF39F045FC45768CEF1BF358B0CAACBF /* FBLPromise+Any.m */; };
-		4EB8C14FF334B4F466B6FFEDF309DA51 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F5495ECF5D04D556C72034C66E6B573 /* POPAnimationExtras.mm */; };
-		502AA91E41F007CCE7C4982EB1594EBA /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53C05498F127ED149C9CACA4F262D3CC /* POPCustomAnimation.mm */; };
-		51F1602A68EF1F348EC5953F197B34C0 /* PromisesSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC153E1BA16B18CD53BEFB1FE288ACFC /* PromisesSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F72C906185AE752758774CF85C92A0E /* Promise+Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C566F3AD6DACBEAB2AB6B41F7AB2 /* Promise+Await.swift */; };
+		202812BF7D9E863E4BF63024749CDA0E /* FBLPromises.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4B2B39D912DEEB025285FF2BE1FA7F80 /* FBLPromises.h */; };
+		216C5647A5AE852AA38C7DDAF6383B43 /* FBLPromise+Retry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1009FF685BE3B45F8A0096C51C064970 /* FBLPromise+Retry.m */; };
+		2201268C71F84DA87176782C31C2426D /* FBLPromise+Wrap.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 82B7A20665CCF96EF2276FA1C2E5E923 /* FBLPromise+Wrap.h */; };
+		22A8C3DBAFD6129AED8E80A6186FC63C /* PromiseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239463CCA668AC34B6719F4B85D2B68 /* PromiseError.swift */; };
+		23FB70BDC9FD374588BD3A079B7DE679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EB539A57B6F7CBF5F5F61AEC46A /* Foundation.framework */; };
+		26C9897870E6DEB6F7D70F5792D66692 /* Pods-BabbelFallingWordsQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6444774C33706C8393020B61671252CC /* Pods-BabbelFallingWordsQuiz-dummy.m */; };
+		2F8DE2A9A0A9928333453C86F7F6E745 /* FBLPromise+Timeout.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 935BF841CC1DDD2AD825FF3B9505EBAD /* FBLPromise+Timeout.h */; };
+		30D3F1BED5D42A82D251B6A050848D20 /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B7A20665CCF96EF2276FA1C2E5E923 /* FBLPromise+Wrap.h */; };
+		33EC554DB0111A43BEACE2149C9C15B1 /* Promise+Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F2A2FAAA5BB06BDFFDC0CDB905A07 /* Promise+Race.swift */; };
+		385FE2FFF67DC748B42B94C8E961A588 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62020A4F2BCB9E86DA99881A00474E3F /* FBLPromises.framework */; };
+		3920F4A2518028380F7EEFD9D5ED8A31 /* PromisesObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 933264BD01436946141A591CB08C48CB /* PromisesObjC-dummy.m */; };
+		395B9B7465A368BC270B5C7316F945F4 /* FBLPromise+Await.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDF7C0F36980FDC46A9854CDA6246C7 /* FBLPromise+Await.h */; };
+		399BD14E6BD5F0BAC888A09029F55547 /* FBLPromiseError.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 9A2B761D74A1A2FB8233597E2861863F /* FBLPromiseError.h */; };
+		3A7FEFE35B6BE48D3F04388DB39E56E3 /* Promise+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CBCF65FE274B7E67E4BA494FDDB5D /* Promise+Retry.swift */; };
+		3E22C28740DA771C8DE7993CA735C428 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 20055E1F3358900BFEE8A8B5E2F74773 /* FBLPromise.m */; };
+		3F59957852E151697B1E102B648C0602 /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6E10B771F2B76FC135DF4790E73C4E /* FBLPromise+Retry.h */; };
+		42D9B45DE1EC9DC67207E114B36C2906 /* FBLPromise+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CA1CD795A80E4BF3B3D6BA3D76BE4E /* FBLPromise+Reduce.h */; };
+		436A4C7612550A6511F67D75C17832FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EB539A57B6F7CBF5F5F61AEC46A /* Foundation.framework */; };
+		46556874C0812D36A49FD5EE563734AE /* FBLPromise+Wrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F491AA3B88C49B61AEF78A83917F79 /* FBLPromise+Wrap.m */; };
+		479E4A66FAC9CF19D4560EE885CE7E56 /* FBLPromise+Then.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1344C69FD84705E796FB7E098837301D /* FBLPromise+Then.h */; };
+		47F84AA49D95C32BA06B848CA94C3CF1 /* Promise+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75E9AB912812BE18361554636F8230 /* Promise+Any.swift */; };
+		4E719AA600AC46C16A2AAEF51FC72166 /* FBLPromise+Any.m in Sources */ = {isa = PBXBuildFile; fileRef = 9377EC98BCEE98F84FD1C97A9F92A346 /* FBLPromise+Any.m */; };
+		51F1602A68EF1F348EC5953F197B34C0 /* PromisesSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E027FDBC1B3112F37EA259755D41C4B5 /* PromisesSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		523D79D3368C535FD3A060D3626DBD9F /* Pods-BabbelFallingWordsQuizTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9776659A86F3B2F43F657131B8FD8C7F /* Pods-BabbelFallingWordsQuizTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5308FB3C4732DBE347A3ADC1762D0517 /* PromisesSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BD5DC4638CFDC970FC7BB3ABC5ED0 /* PromisesSwift-dummy.m */; };
-		53C43DAF9F7AA8FEC8EBB7328C8A17F0 /* PromisesObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C9A73692359950C98E672256B2BDDC /* PromisesObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54ABAF4E7F5C52EFC94D5473CF8FD74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */; };
-		584B46EAF6D9AF9E37490C01E3834569 /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC25195715D1F5EE29EE058D8803E10 /* FBLPromise+Reduce.m */; };
-		5893E82FC487DE9E9BF221DCCEECF756 /* FBLPromise+Do.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D2E5030351FD40D2803E6A05F1112781 /* FBLPromise+Do.h */; };
-		59148E516322ADEA3C320319E14859FD /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A215B7EAE13A158543625EB68C23DB /* Filters.swift */; };
-		59AF98EDA86F9416CB87B2AA27B895C6 /* Pods-BabbelFallingWordsQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6444774C33706C8393020B61671252CC /* Pods-BabbelFallingWordsQuiz-dummy.m */; };
-		59B61B2D3EFA715E5C3907E245526483 /* Promise+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624E6A5478426BBF1101BAAA2DE66BB /* Promise+Reduce.swift */; };
-		5CFDE3E84EBF6411A8279C22D86EB45F /* Promise+Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2239C81330BD4464C869A6702F383FEE /* Promise+Then.swift */; };
-		6067C73DD54A47802C434B6857BBF945 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DD300890FC79A65E534D6EF39C8081 /* FBLPromise+Race.h */; };
-		610CA997F58F694987BE4991DF9F198A /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C90EB7FF35B874762C81ABEE1484249 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6306EC6BCDE0CADB7D3451A23D941AFB /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E865C120BE787D693A3D900078BE551 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F2B1DE2285E46AFCB2AB71CE5ADF0F /* ValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F51BDC245403CF602AC1A63EF6EB45 /* ValueView.swift */; };
-		65CAE86ECB22CCBA90F8D3FDA02178FE /* Pods-BabbelFallingWordsQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E16DB4CA4E38737911B4C88F7FBFDE8 /* Pods-BabbelFallingWordsQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66AA46A36904235186FEDF5D80498B7F /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE3C74ACF83D54768A9409EBFDA4646 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68A9783D628A73612A90DAA12A74436F /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 312D176B74895F80AE0FDE3844311D02 /* FBLPromiseError.h */; };
-		6F750EF1468E96410061049E6815524D /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBC9BECAB66CA3331372A3998DB5208 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F868CE0D00E334C560115C1112050B3 /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4357A9090D7BBEE0F5EDFC68D9EE /* FBLPromise+Recover.m */; };
-		6FA5C5684F64A47ACBFEA3B3C744E21B /* FBLPromise+Reduce.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D5CA0D74998A3DBF216324D8DEEA8497 /* FBLPromise+Reduce.h */; };
-		72FBDED38AB495E80A09719116C3505F /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F04EFE43802696E9A1AB4C87DF97244 /* POPBasicAnimation.mm */; };
-		75378C5B617F267B40CB53D11BB58F8F /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3652573BE16151E62D399C298311E0 /* pop-dummy.m */; };
-		7B871C03032E126F1200182E6BE4090C /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9D7ADA2450E993E720D584B32A505A /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		802B916EFC20C3DDF66EE41363810C33 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF20FC87EBD814CF41B6AFDE94331FE0 /* POPSpringAnimation.mm */; };
-		81BCD269AC9D33180FA7D418C9AA5B3A /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = B297DB849F468096BCCAB1C44B9C1D16 /* FBLPromise+Do.m */; };
-		85B49B90A5C8819CAAAD2C782B3692B5 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9EB2E7830C94A769239E4D5B1BFB3 /* POPAnimatableProperty.mm */; };
-		85C2A72CB7D12DE726EF1501A8C37468 /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7815059AF451AF0B2B9FCD7F6C5367 /* FBLPromisePrivate.h */; };
-		86796ABFCC881A1F4EBBFDF093BB5F3D /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = BF03BFBB7B5AF214DF89EB479592CEBD /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		884A45A2057B2257E070EED06F07E9B9 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = C94D278E6206FECACA9EEB9E688F6EAB /* FBLPromise+Catch.h */; };
-		8BC5960474388080AC309426F85D6BFA /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4832C8A3176292671E2AC4D17C5858DF /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BDCBD0BD52FE32FAA61A3373919663E /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CF7BAF4B564931F72FF55C6CC0C1EA /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F3C1B3075EF8ECDC3A3979D4C2DF98A /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A04282116F446D9146376FC0AC318E1 /* FBLPromise.h */; };
-		9170DC12CA9B1C112B442906AAE35AA0 /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D0D4114A5D4F7BBD48361FB2119305 /* FBLPromise+Validate.m */; };
-		9237BD2C81B21E62F851299729D8C729 /* FBLPromise+Await.m in Sources */ = {isa = PBXBuildFile; fileRef = 196790720DD4EA47313D45475C3B99C7 /* FBLPromise+Await.m */; };
-		928DF3F7DC22274F563D370250A3EE93 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FAC465121918CD1812A07E9F8188B3 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		933607AE8B99EA7AFB6533E5479367F5 /* Promise+Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C525B3E1730CF776E457BDE587D47 /* Promise+Catch.swift */; };
-		96E40DE235EF38112A483646C57BA231 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEA1A6FC1614D21DD329DEFDA86525D /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		984C1DB2405092647A797EFD6DB84B36 /* Promise+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774D7259EC582E3326887A21F679D56 /* Promise+Timeout.swift */; };
-		9915D08D6A6D76CE3464F11008B9C34E /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = C85DD8BB3A02892DE6572398606ED618 /* POPGeometry.mm */; };
-		9A703F4AA6B2B785157BB35AE0E54759 /* FBLPromiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A37425B3931AE4B23FD2446F608B16 /* FBLPromiseError.m */; };
-		9AC035372A17582F5C544D667FA1F883 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D17A05441F0FCE3340B97288552149F /* POPAnimation.mm */; };
-		9CF74FB61F4C12A339E142C19A1AFDB8 /* FBLPromise+Retry.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A69D01E8C5C96B110CCF99A14927D2BD /* FBLPromise+Retry.h */; };
-		9D46A83C809863B53D718A1FC57FB931 /* FBLPromise+Testing.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = B00797966E812680A71A832F75F27B75 /* FBLPromise+Testing.h */; };
-		9EFA6E82160F41C50082854E00532BA3 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3D7B69065F3C15B8ADD4372652221E /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A38A0EFE020D2364122A70909505592A /* FBLPromise+All.h in Headers */ = {isa = PBXBuildFile; fileRef = C79823A9777467AB9342ACB84A2B935F /* FBLPromise+All.h */; };
-		A53AF300A25AB72D0056AC05E6130F9A /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB0E480D2698668E614F0337053A64 /* FBLPromise+Testing.m */; };
-		A583D6C2031D5C8887DE05EEEABBF57E /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FE784302FE58F4AB8DD86D3D6DE23FD9 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6B5F5155D4ACCDBA1A5CFDDAFE2829E /* FBLPromise+Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC0D89B54B3C8E59006AFAB162D89D /* FBLPromise+Race.m */; };
-		A7E0175BC6E4F408531FEEEA344EC6E3 /* FBLPromise+Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4823B24EAB8695C4E1881E45599543 /* FBLPromise+Timeout.h */; };
-		A88FA3BD7AAD49E58F177E59E6331A7C /* FBLPromise+Race.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C1DD300890FC79A65E534D6EF39C8081 /* FBLPromise+Race.h */; };
-		A9DAED12E057B8F7146A0CDEAD0BD739 /* FBLPromise+Always.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B89C9D834138EA906986B16AEC3D75 /* FBLPromise+Always.m */; };
-		AB0694D9F6B3472E0490839C6873C256 /* FBLPromise+Await.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 883D7E65AA5ED8A386256A7E8C389102 /* FBLPromise+Await.h */; };
-		ADE9395FED5AF4144A137B7351F94748 /* FBLPromise+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B7A3A694409D801A141FAB601D3DC9 /* FBLPromise+Validate.h */; };
-		B02B3BBFDCA2163B81E8F84CD5A9B57E /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6138CDB781059D0584B146369700378 /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B05B084E8776F55FCF7D6147B72A2241 /* Promise+Always.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089B4517A235711962A7C8EDA2802DC7 /* Promise+Always.swift */; };
-		B12C879C5BB350C62085990BFEBDC722 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1E198C16791E571A5224AC8171493 /* Promise.swift */; };
-		B24193E5FC040F836FC46C4965B090AE /* FBLPromise+Do.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E5030351FD40D2803E6A05F1112781 /* FBLPromise+Do.h */; };
-		B44EA0FEFD8A68AB863B34B33311795B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */; };
-		B507FE2D98FCDE290898DA42045A7664 /* FBLPromisePrivate.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 9E7815059AF451AF0B2B9FCD7F6C5367 /* FBLPromisePrivate.h */; };
-		B529D41F2EEC499158309CDBA8C5BB8A /* Promise+Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB78589922B7E0C31FE77E4DA6DEC6 /* Promise+Delay.swift */; };
-		B5D047B5A7E108F05007BE2F6CF6BCB8 /* FBLPromise+Delay.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0F2D1D838D88E8589DEAE0CDC13C3A3E /* FBLPromise+Delay.h */; };
-		B751C0C307145213A726FEEB8330C189 /* Promise+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A506E98C6F27DD90872CCE46AA14F /* Promise+Validate.swift */; };
-		B9DC08399D5C61C91EFBD1BCFE702B4E /* FBLPromise+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 6215BB862C3CB6C4D303E4AACE691095 /* FBLPromise+Async.m */; };
-		B9E292A2E0825ACC5696252A57CC962E /* FBLPromise+Any.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 046B7DFA28B20645EA9AE313F0C097C5 /* FBLPromise+Any.h */; };
-		BBCD596B5F7AADC69F46794B1FA6B260 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD42D55475447EC3EACD20902793AE02 /* POPLayerExtras.mm */; };
-		BC311D34AF5460CA08110D2E142762F2 /* FBLPromise+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 42803C5D2ECB9AF5EB1AB2EBF0A58B97 /* FBLPromise+Timeout.m */; };
-		BFF7F62D9811752D578F60FD2B71C0D2 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9EBC9E46332B15494F22FE41A4E9FE /* pop.framework */; };
-		C1FE7E68351F4112E424D03F83F33571 /* FBLPromise+Always.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 19A453F5740A2323B5299C04819B867D /* FBLPromise+Always.h */; };
-		C202B49C7A23A484FB06F86E31B15F78 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 44698B499A2D6C750BC83EF92FD87EA8 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C23AE5FACEE932E95E65EE7DC3759C28 /* Promise+Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC4839D06861B552847B9CA8D35B2D /* Promise+Do.swift */; };
-		C7A850FE72AAA98AFA062C580C586738 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C7695591503E702B562ADF6D127F5E4 /* POPPropertyAnimation.mm */; };
-		CE0058B99DFB44798AC8007CDA6461B5 /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2D1D838D88E8589DEAE0CDC13C3A3E /* FBLPromise+Delay.h */; };
-		CE16C80F7BEE3F20C756C71E38EE1D45 /* Promise+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD7D829842EA4436C5CF215E92BFD3 /* Promise+Testing.swift */; };
-		CE1B3D95E4EF6F4D7F8B87A3DBCFE863 /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = EE376825D5A94EB2A5F48B76F619D816 /* FBLPromise+Recover.h */; };
-		CF2225BD93F68053354C4443A41B2599 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAACC6203E0BB9552088F0C3BF40F46 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF874A84475551050A119DEBD9823E5E /* FBLPromise+Then.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A901518BC97D7FDC3082FF99376613F /* FBLPromise+Then.m */; };
-		CFF151AACDA9DAE72D308699219B110D /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D72550A734D793F2C3722DF1E94B9 /* POPAnimationEvent.mm */; };
-		D127FD3B596332854CB822AA4550E95D /* FBLPromise+Validate.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 78B7A3A694409D801A141FAB601D3DC9 /* FBLPromise+Validate.h */; };
-		D813F4CC1366B44107F51CA20C043905 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64368800DA8DF9C73544C0E06680C991 /* POPAnimationTracer.mm */; };
-		D896E959460F1C6DED024DB3B50C388F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */; };
-		D8BD407FA4EB93146F09E4382CC72076 /* Promise+Recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5E3848432BE025DFE3F77356A2A80 /* Promise+Recover.swift */; };
-		D8D7ECE89110CE431BB728C58AA6EAD2 /* FBLPromise+All.m in Sources */ = {isa = PBXBuildFile; fileRef = BC691F122CD5ACC7D77A7C8356A8CCCA /* FBLPromise+All.m */; };
-		DC000A136327B5C08E09D76756544D06 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B2006CB2F4EAAD9BE5E099839BA024 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD7E13AB8ABD1C94BD32A76EAB5EE94C /* Promise+Wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23D905A0A3ED16984DD82A36ABAF33 /* Promise+Wrap.swift */; };
-		DDCC8B9CA71A25F80103C90C7389933F /* FBLPromise.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0A04282116F446D9146376FC0AC318E1 /* FBLPromise.h */; };
-		DDD25CA1AE26B5535037BBA20FF594C7 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A247383DE52FCBCC27BD9D9B6EA266C /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DEB1C5280E77C143AB35F4B00D21C0F3 /* FBLPromise+Async.h in Headers */ = {isa = PBXBuildFile; fileRef = 594B5A250E56C6A02BB96CD1C5EEC4D1 /* FBLPromise+Async.h */; };
-		DEBEB278AE3F9655A954BFAB82935E11 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A20FF85D226E5C3BF3B27D00E9E22E2 /* POPVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2AECE5CB4161EE926001D08D6736105 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A656CBAAE0F69F68032612A3798D072 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6B87BC61D9D90F1DFB27BF13A04FE9B /* FBLPromise+Any.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B7DFA28B20645EA9AE313F0C097C5 /* FBLPromise+Any.h */; };
-		EC305C485F52FF74E820B5F49611695B /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D40A409F8E4FCC363DAD31D8B4D9B /* POPVector.mm */; };
-		ECC7AC3D9F1DB70A3B82E9648CE92990 /* FBLPromise+All.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C79823A9777467AB9342ACB84A2B935F /* FBLPromise+All.h */; };
-		ED11330A15A92D5E5FCD51EC2ECFC0AD /* FBLPromise+Then.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA7D05E19ADA68B15D94B669C84C00D /* FBLPromise+Then.h */; };
-		EDBDF4EC76F26BDF831EC292173DA64B /* FBLPromise+Always.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A453F5740A2323B5299C04819B867D /* FBLPromise+Always.h */; };
-		F03C30661FED61CA63452753D4CD4BB9 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFD2F4CA0E18BFBA8CE901194E8BAA /* Slider.swift */; };
-		F1FC76B2790EF9D6D0EF180AAECCB0FE /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = BB43DD5C18AF1119D8619458FCFEA33F /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3D88EBA5698C80C2527012F3A4CBC90 /* FBLPromise+Async.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 594B5A250E56C6A02BB96CD1C5EEC4D1 /* FBLPromise+Async.h */; };
-		F88C61C11E4764A51A594C20C3F8E019 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E769ADC402DC7B27042214F8D12AFB0 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9E596FD24AD042B0183239769B7B091 /* FBLPromise+Catch.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C94D278E6206FECACA9EEB9E688F6EAB /* FBLPromise+Catch.h */; };
+		5308FB3C4732DBE347A3ADC1762D0517 /* PromisesSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B11AD49210F1B4781E770FCE74EE1B /* PromisesSwift-dummy.m */; };
+		53C43DAF9F7AA8FEC8EBB7328C8A17F0 /* PromisesObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9052E1E0E91E559700F1FF80F1C22B99 /* PromisesObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54ABAF4E7F5C52EFC94D5473CF8FD74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EB539A57B6F7CBF5F5F61AEC46A /* Foundation.framework */; };
+		584B46EAF6D9AF9E37490C01E3834569 /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = B0993F78134440FEB3993F8263BFDFE9 /* FBLPromise+Reduce.m */; };
+		5893E82FC487DE9E9BF221DCCEECF756 /* FBLPromise+Do.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 92DE14536713A5D225709BEE0C8DC7DA /* FBLPromise+Do.h */; };
+		59B61B2D3EFA715E5C3907E245526483 /* Promise+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4C8EA49AB33C743C3A54C47C16FD2 /* Promise+Reduce.swift */; };
+		5CFDE3E84EBF6411A8279C22D86EB45F /* Promise+Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47DCA3FFDB0E6128EEF529043881EF9 /* Promise+Then.swift */; };
+		6067C73DD54A47802C434B6857BBF945 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D45E603D0D972C20E7E891F528D14FA /* FBLPromise+Race.h */; };
+		684BC7CD34C2465F0258785FE3E730B2 /* Pods-BabbelFallingWordsQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E16DB4CA4E38737911B4C88F7FBFDE8 /* Pods-BabbelFallingWordsQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A9783D628A73612A90DAA12A74436F /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2B761D74A1A2FB8233597E2861863F /* FBLPromiseError.h */; };
+		6F868CE0D00E334C560115C1112050B3 /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4C12BD2208C1F408E47DC7083A346D /* FBLPromise+Recover.m */; };
+		6FA5C5684F64A47ACBFEA3B3C744E21B /* FBLPromise+Reduce.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D1CA1CD795A80E4BF3B3D6BA3D76BE4E /* FBLPromise+Reduce.h */; };
+		81BCD269AC9D33180FA7D418C9AA5B3A /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4FA9391A58C7135080B41B236F6968 /* FBLPromise+Do.m */; };
+		85C2A72CB7D12DE726EF1501A8C37468 /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EE2536AAAB2024FEB54549B7E44E56 /* FBLPromisePrivate.h */; };
+		884A45A2057B2257E070EED06F07E9B9 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F972AB008590608A7E48FAB2D0B354 /* FBLPromise+Catch.h */; };
+		8F3C1B3075EF8ECDC3A3979D4C2DF98A /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = F17375348E43A11D9C3D60F8E4583154 /* FBLPromise.h */; };
+		9170DC12CA9B1C112B442906AAE35AA0 /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0C40B38AF6E4EEC84D6233485F7B5 /* FBLPromise+Validate.m */; };
+		9237BD2C81B21E62F851299729D8C729 /* FBLPromise+Await.m in Sources */ = {isa = PBXBuildFile; fileRef = 30115E969939C1810800AC27A4E01251 /* FBLPromise+Await.m */; };
+		933607AE8B99EA7AFB6533E5479367F5 /* Promise+Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A2350E91ACCBBE4B577FB3007F7BB /* Promise+Catch.swift */; };
+		984C1DB2405092647A797EFD6DB84B36 /* Promise+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DFE1235BDA40D9167A794A49CBBC5 /* Promise+Timeout.swift */; };
+		9A703F4AA6B2B785157BB35AE0E54759 /* FBLPromiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB5DB98A1EB44ABD8DF9D9D13AE860 /* FBLPromiseError.m */; };
+		9CF74FB61F4C12A339E142C19A1AFDB8 /* FBLPromise+Retry.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = BE6E10B771F2B76FC135DF4790E73C4E /* FBLPromise+Retry.h */; };
+		9D46A83C809863B53D718A1FC57FB931 /* FBLPromise+Testing.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5FA9EC0B05758DE5EF955182E6F9B82C /* FBLPromise+Testing.h */; };
+		A38A0EFE020D2364122A70909505592A /* FBLPromise+All.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4350F63193E6A351567002D07980E1 /* FBLPromise+All.h */; };
+		A53AF300A25AB72D0056AC05E6130F9A /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BD7B9AF7FB3FACBEE5D2D48F0E994B /* FBLPromise+Testing.m */; };
+		A6B5F5155D4ACCDBA1A5CFDDAFE2829E /* FBLPromise+Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA0EDCD513B24F8842D5BCD648F529 /* FBLPromise+Race.m */; };
+		A7E0175BC6E4F408531FEEEA344EC6E3 /* FBLPromise+Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 935BF841CC1DDD2AD825FF3B9505EBAD /* FBLPromise+Timeout.h */; };
+		A88FA3BD7AAD49E58F177E59E6331A7C /* FBLPromise+Race.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1D45E603D0D972C20E7E891F528D14FA /* FBLPromise+Race.h */; };
+		A9DAED12E057B8F7146A0CDEAD0BD739 /* FBLPromise+Always.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356B219E06D100E8B9AAABAE50129A8 /* FBLPromise+Always.m */; };
+		AB0694D9F6B3472E0490839C6873C256 /* FBLPromise+Await.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 2DDF7C0F36980FDC46A9854CDA6246C7 /* FBLPromise+Await.h */; };
+		ADE9395FED5AF4144A137B7351F94748 /* FBLPromise+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFE4B1830F470A24112A4645AFB522D /* FBLPromise+Validate.h */; };
+		B05B084E8776F55FCF7D6147B72A2241 /* Promise+Always.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F47AAD88ADED51FA9115C255B45CD /* Promise+Always.swift */; };
+		B12C879C5BB350C62085990BFEBDC722 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1821CBC95BC1E9A05CF1DEDD63AFB58 /* Promise.swift */; };
+		B24193E5FC040F836FC46C4965B090AE /* FBLPromise+Do.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DE14536713A5D225709BEE0C8DC7DA /* FBLPromise+Do.h */; };
+		B507FE2D98FCDE290898DA42045A7664 /* FBLPromisePrivate.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 61EE2536AAAB2024FEB54549B7E44E56 /* FBLPromisePrivate.h */; };
+		B529D41F2EEC499158309CDBA8C5BB8A /* Promise+Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99067861C7A0D44932B2419718ECDBAA /* Promise+Delay.swift */; };
+		B5D047B5A7E108F05007BE2F6CF6BCB8 /* FBLPromise+Delay.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E5B65D69FB3D2EB3C5858E75BF8371B6 /* FBLPromise+Delay.h */; };
+		B751C0C307145213A726FEEB8330C189 /* Promise+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A6BC4D39E822D4DB2CEA7763F834A /* Promise+Validate.swift */; };
+		B9DC08399D5C61C91EFBD1BCFE702B4E /* FBLPromise+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65F6CB67092DDADDF6C255C25F1ED2 /* FBLPromise+Async.m */; };
+		B9E292A2E0825ACC5696252A57CC962E /* FBLPromise+Any.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 17A56CFC0EB1B8079C189AF8BC307131 /* FBLPromise+Any.h */; };
+		BC311D34AF5460CA08110D2E142762F2 /* FBLPromise+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD7C6AC3F2ECAAD9D61CFB1F3A6C27 /* FBLPromise+Timeout.m */; };
+		C1FE7E68351F4112E424D03F83F33571 /* FBLPromise+Always.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C17DE9792847FE2F9CDFBB2347945627 /* FBLPromise+Always.h */; };
+		C23AE5FACEE932E95E65EE7DC3759C28 /* Promise+Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B1263954E7786D836563416AE41FF0 /* Promise+Do.swift */; };
+		CE0058B99DFB44798AC8007CDA6461B5 /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B65D69FB3D2EB3C5858E75BF8371B6 /* FBLPromise+Delay.h */; };
+		CE16C80F7BEE3F20C756C71E38EE1D45 /* Promise+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A774562178BA89F4FD29F759EB1BCCF3 /* Promise+Testing.swift */; };
+		CE1B3D95E4EF6F4D7F8B87A3DBCFE863 /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2C8AE1EC4C0708EE9E53DFBF13A6A9 /* FBLPromise+Recover.h */; };
+		CF874A84475551050A119DEBD9823E5E /* FBLPromise+Then.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C500C80CBE9BF83E3044CF78EEEF2B /* FBLPromise+Then.m */; };
+		D127FD3B596332854CB822AA4550E95D /* FBLPromise+Validate.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7BFE4B1830F470A24112A4645AFB522D /* FBLPromise+Validate.h */; };
+		D8BD407FA4EB93146F09E4382CC72076 /* Promise+Recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D99EF7E7ED073E774C24302E38E07 /* Promise+Recover.swift */; };
+		D8D7ECE89110CE431BB728C58AA6EAD2 /* FBLPromise+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BD0C5B0247C85BEAF735C82DE26CF /* FBLPromise+All.m */; };
+		DD7E13AB8ABD1C94BD32A76EAB5EE94C /* Promise+Wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264501B5E9929B9D5CB2510EC37F18F /* Promise+Wrap.swift */; };
+		DDCC8B9CA71A25F80103C90C7389933F /* FBLPromise.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F17375348E43A11D9C3D60F8E4583154 /* FBLPromise.h */; };
+		DEB1C5280E77C143AB35F4B00D21C0F3 /* FBLPromise+Async.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D345C6D3A91BF77F8AE5C2B5FE9934 /* FBLPromise+Async.h */; };
+		E6B87BC61D9D90F1DFB27BF13A04FE9B /* FBLPromise+Any.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A56CFC0EB1B8079C189AF8BC307131 /* FBLPromise+Any.h */; };
+		ECC7AC3D9F1DB70A3B82E9648CE92990 /* FBLPromise+All.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = DF4350F63193E6A351567002D07980E1 /* FBLPromise+All.h */; };
+		ED11330A15A92D5E5FCD51EC2ECFC0AD /* FBLPromise+Then.h in Headers */ = {isa = PBXBuildFile; fileRef = 1344C69FD84705E796FB7E098837301D /* FBLPromise+Then.h */; };
+		EDBDF4EC76F26BDF831EC292173DA64B /* FBLPromise+Always.h in Headers */ = {isa = PBXBuildFile; fileRef = C17DE9792847FE2F9CDFBB2347945627 /* FBLPromise+Always.h */; };
+		F3D88EBA5698C80C2527012F3A4CBC90 /* FBLPromise+Async.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C4D345C6D3A91BF77F8AE5C2B5FE9934 /* FBLPromise+Async.h */; };
+		F9E596FD24AD042B0183239769B7B091 /* FBLPromise+Catch.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 12F972AB008590608A7E48FAB2D0B354 /* FBLPromise+Catch.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16C7C15DC0D4225E30822C9C2D1ED5D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0483D7F620C992E5C4BD62A7266EABB4;
-			remoteInfo = pop;
-		};
-		57FCA57F4CA9C3E47942B4FB0AA57B39 /* PBXContainerItemProxy */ = {
+		2B146D92617831B732BFC5212692E102 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A979F9D3632CD5F2F7518F9A362CBAE3;
 			remoteInfo = PromisesSwift;
-		};
-		5C76675F40C37A6E0D523D348D8C204E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
-			remoteInfo = PromisesObjC;
 		};
 		8F0DFE7A5DB2A41EE33DB38C72AC6DAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -193,19 +117,12 @@
 			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
 			remoteInfo = PromisesObjC;
 		};
-		B978F63AFB9FA4F4B4D3BB9DAB103F4A /* PBXContainerItemProxy */ = {
+		E3981B0B861B346A8E18579E24F0DE82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDE5D5EAAD327B650F11E4D21FAA723D;
-			remoteInfo = "fluid-slider";
-		};
-		D1B3C25DE37669143160DFC3092A7E97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0483D7F620C992E5C4BD62A7266EABB4;
-			remoteInfo = pop;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
 		};
 		ECC1C096612A36F0B0A1466CE8559EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -261,179 +178,108 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02CF7BAF4B564931F72FF55C6CC0C1EA /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
-		02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		02FAC465121918CD1812A07E9F8188B3 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
-		046B7DFA28B20645EA9AE313F0C097C5 /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
-		048799D0D4A4A4AC1C47FE0B74097DDA /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pop.modulemap; sourceTree = "<group>"; };
-		04F161966B37E1255EDC6521B297B367 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
-		089B4517A235711962A7C8EDA2802DC7 /* Promise+Always.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Always.swift"; path = "Sources/Promises/Promise+Always.swift"; sourceTree = "<group>"; };
+		0356B219E06D100E8B9AAABAE50129A8 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
+		07CD7C6AC3F2ECAAD9D61CFB1F3A6C27 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
 		09ECFF84BCE102C58D33595FA734EE61 /* Pods-BabbelFallingWordsQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BabbelFallingWordsQuiz.debug.xcconfig"; sourceTree = "<group>"; };
-		0A04282116F446D9146376FC0AC318E1 /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
 		0B5AE8763312F1EB7E200257CFE60C63 /* Pods-BabbelFallingWordsQuizTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BabbelFallingWordsQuizTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D7F56A99049CF07D5015D80C9F4A11D /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
-		0F2D1D838D88E8589DEAE0CDC13C3A3E /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
-		10FB0E480D2698668E614F0337053A64 /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
-		133515CEC4987E66200F5E3B86B78E4A /* PromisesSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesSwift.xcconfig; sourceTree = "<group>"; };
-		196790720DD4EA47313D45475C3B99C7 /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
-		19A453F5740A2323B5299C04819B867D /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
-		19A8915626EFFD43962B2FE832AEB4D0 /* Promise+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Async.swift"; path = "Sources/Promises/Promise+Async.swift"; sourceTree = "<group>"; };
-		1BA941903C3F734FE43A2E0B4BE59846 /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
+		0F4FA9391A58C7135080B41B236F6968 /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
+		1009FF685BE3B45F8A0096C51C064970 /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
+		12F972AB008590608A7E48FAB2D0B354 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
+		1344C69FD84705E796FB7E098837301D /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
+		17A56CFC0EB1B8079C189AF8BC307131 /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
+		184D5548C356DF74A538AC6840C75C4F /* PromisesSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesSwift.xcconfig; sourceTree = "<group>"; };
+		1A3D99EF7E7ED073E774C24302E38E07 /* Promise+Recover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Recover.swift"; path = "Sources/Promises/Promise+Recover.swift"; sourceTree = "<group>"; };
 		1BFF906CC482657002A62EB7CC33487D /* Pods-BabbelFallingWordsQuiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BabbelFallingWordsQuiz-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1EC9E56E9E2E86BF4FFECF4BF8F3E911 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		1D45E603D0D972C20E7E891F528D14FA /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
 		1F71BB1295F7DBD68B1B834AF9BF9242 /* Pods-BabbelFallingWordsQuizTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BabbelFallingWordsQuizTests.modulemap"; sourceTree = "<group>"; };
-		2239C81330BD4464C869A6702F383FEE /* Promise+Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Then.swift"; path = "Sources/Promises/Promise+Then.swift"; sourceTree = "<group>"; };
-		2334FDFF955C1AE97D9DF8DDF269D5F7 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
-		23B89C9D834138EA906986B16AEC3D75 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
-		2752A9F2DCB4EA147E510CCBBA06EE6C /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
-		28A58ED572D8955E849316CB8E000F47 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
-		2D0C0F37CB04A1AA493CB8630D4D9645 /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Promises.framework; path = PromisesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DBC9BECAB66CA3331372A3998DB5208 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
-		312D176B74895F80AE0FDE3844311D02 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
+		20055E1F3358900BFEE8A8B5E2F74773 /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
+		23B11AD49210F1B4781E770FCE74EE1B /* PromisesSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesSwift-dummy.m"; sourceTree = "<group>"; };
+		2DDF7C0F36980FDC46A9854CDA6246C7 /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
+		30115E969939C1810800AC27A4E01251 /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
 		329F5755A58D25D6339EF82308CFA238 /* Pods-BabbelFallingWordsQuiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BabbelFallingWordsQuiz-frameworks.sh"; sourceTree = "<group>"; };
-		34E5504BB2BAA846D9CA89D922F5E85A /* fluid_slider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fluid_slider.framework; path = "fluid-slider.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34F51BDC245403CF602AC1A63EF6EB45 /* ValueView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueView.swift; path = Sources/ValueView.swift; sourceTree = "<group>"; };
-		362BBE7AB2C6AD8ACD920783F55730F3 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
-		36EA54759C543EEAC351A620308EB2CE /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
-		37E0E5683224A05A298855FF24ED7D8A /* fluid-slider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "fluid-slider.xcconfig"; sourceTree = "<group>"; };
-		3C3D40A409F8E4FCC363DAD31D8B4D9B /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
-		3D3D7B69065F3C15B8ADD4372652221E /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		3C5BD0C5B0247C85BEAF735C82DE26CF /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
 		3E16DB4CA4E38737911B4C88F7FBFDE8 /* Pods-BabbelFallingWordsQuiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BabbelFallingWordsQuiz-umbrella.h"; sourceTree = "<group>"; };
-		3F1577784E971512B5B9F84D3299A3BE /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
-		40B2A7A7E1E8F7ACC418FF1276836837 /* PromisesSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-prefix.pch"; sourceTree = "<group>"; };
+		3F58673713395F0E91D5AE2362A172B5 /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
 		410CF37177AEA4440F75EC0DC310EE33 /* Pods-BabbelFallingWordsQuiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BabbelFallingWordsQuiz-acknowledgements.plist"; sourceTree = "<group>"; };
-		42803C5D2ECB9AF5EB1AB2EBF0A58B97 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
-		44698B499A2D6C750BC83EF92FD87EA8 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
-		45BB3BA3DD363F76008C1E1725871EC0 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
 		46BE1755CA8785361787168FE6D3549B /* Pods-BabbelFallingWordsQuiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BabbelFallingWordsQuiz.modulemap"; sourceTree = "<group>"; };
-		47CC4839D06861B552847B9CA8D35B2D /* Promise+Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Do.swift"; path = "Sources/Promises/Promise+Do.swift"; sourceTree = "<group>"; };
-		4832C8A3176292671E2AC4D17C5858DF /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
-		4B8E2FB608422E07AAA892EB95004B15 /* Pods_BabbelFallingWordsQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BabbelFallingWordsQuiz.framework; path = "Pods-BabbelFallingWordsQuiz.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B9545E3A11D2C874453AD209852674D /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
-		4E865C120BE787D693A3D900078BE551 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
-		531264B7A36C8DFCD3474B77E77CA23E /* Pods_BabbelFallingWordsQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BabbelFallingWordsQuizTests.framework; path = "Pods-BabbelFallingWordsQuizTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53C05498F127ED149C9CACA4F262D3CC /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
-		54875FBD7BC5FC62E38CE6041A40E0DC /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
-		54A37425B3931AE4B23FD2446F608B16 /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
+		47F491AA3B88C49B61AEF78A83917F79 /* FBLPromise+Wrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Wrap.m"; path = "Sources/FBLPromises/FBLPromise+Wrap.m"; sourceTree = "<group>"; };
+		4B2B39D912DEEB025285FF2BE1FA7F80 /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
+		4B2C8AE1EC4C0708EE9E53DFBF13A6A9 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
+		4D5E6969C0306397CB42DA8FF54BBDE2 /* Pods_BabbelFallingWordsQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BabbelFallingWordsQuiz.framework; path = "Pods-BabbelFallingWordsQuiz.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DA0EDCD513B24F8842D5BCD648F529 /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
 		550D52B9A81C56BFF900DE49C72A25DD /* Pods-BabbelFallingWordsQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BabbelFallingWordsQuizTests.release.xcconfig"; sourceTree = "<group>"; };
-		594B5A250E56C6A02BB96CD1C5EEC4D1 /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
-		5A20FF85D226E5C3BF3B27D00E9E22E2 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
-		5A247383DE52FCBCC27BD9D9B6EA266C /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
-		5A901518BC97D7FDC3082FF99376613F /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
-		5C65B5B37BEB2FDD5312FC0BD4566217 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBLPromises.framework; path = PromisesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D43C02C21E121B329A4E294F1E59313 /* Promise+Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Await.swift"; path = "Sources/Promises/Promise+Await.swift"; sourceTree = "<group>"; };
-		5DB4AD700F3105D21D4BF8FC285C3464 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
-		5DEF4357A9090D7BBEE0F5EDFC68D9EE /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
-		5E9EBC9E46332B15494F22FE41A4E9FE /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EE7EC420996AA95B328170C1AD5651B /* fluid-slider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fluid-slider-Info.plist"; sourceTree = "<group>"; };
-		5F04EFE43802696E9A1AB4C87DF97244 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
-		5FAACC6203E0BB9552088F0C3BF40F46 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
-		6215BB862C3CB6C4D303E4AACE691095 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
-		64368800DA8DF9C73544C0E06680C991 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		5A75E9AB912812BE18361554636F8230 /* Promise+Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Any.swift"; path = "Sources/Promises/Promise+Any.swift"; sourceTree = "<group>"; };
+		5B41D0B0C82A399F6B1894D5F9976E9C /* PromisesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesSwift.modulemap; sourceTree = "<group>"; };
+		5FA9EC0B05758DE5EF955182E6F9B82C /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
+		61EE2536AAAB2024FEB54549B7E44E56 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
+		62020A4F2BCB9E86DA99881A00474E3F /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6264501B5E9929B9D5CB2510EC37F18F /* Promise+Wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Wrap.swift"; path = "Sources/Promises/Promise+Wrap.swift"; sourceTree = "<group>"; };
+		627CBCF65FE274B7E67E4BA494FDDB5D /* Promise+Retry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Retry.swift"; path = "Sources/Promises/Promise+Retry.swift"; sourceTree = "<group>"; };
 		6444774C33706C8393020B61671252CC /* Pods-BabbelFallingWordsQuiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BabbelFallingWordsQuiz-dummy.m"; sourceTree = "<group>"; };
-		64B2006CB2F4EAAD9BE5E099839BA024 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
-		64C662D94B820C7A2B273C73BAFF7726 /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
-		684721EBC20FE38505AFD8E7A20F5661 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
-		6A656CBAAE0F69F68032612A3798D072 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
-		6AA9EB2E7830C94A769239E4D5B1BFB3 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
-		6ACC0D89B54B3C8E59006AFAB162D89D /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
-		6C3652573BE16151E62D399C298311E0 /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
-		6D17A05441F0FCE3340B97288552149F /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
-		6F5C4FB1A1D5EA0521E8E2F2110F49A7 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
-		760C47D2A4CD2887F934506AC2600418 /* Promise+Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Any.swift"; path = "Sources/Promises/Promise+Any.swift"; sourceTree = "<group>"; };
-		76F31087B1BEC9A62770A8DB3A67567C /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
-		78B7A3A694409D801A141FAB601D3DC9 /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
-		7AF7EA94C2C3356802DD71453B049C22 /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
-		7F1224855BC3751BB7CB4A6B14CC4B22 /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatablePropertyTypes.h; path = pop/POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
-		7FA7D05E19ADA68B15D94B669C84C00D /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
-		881F954EE6A1B9FE72E1275DFE6BC7EF /* PromiseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromiseError.swift; path = Sources/Promises/PromiseError.swift; sourceTree = "<group>"; };
-		883D7E65AA5ED8A386256A7E8C389102 /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
-		8AD0C2F65AADE811194C8A4114BF61D7 /* PromisesObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.xcconfig; sourceTree = "<group>"; };
-		8C23D905A0A3ED16984DD82A36ABAF33 /* Promise+Wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Wrap.swift"; path = "Sources/Promises/Promise+Wrap.swift"; sourceTree = "<group>"; };
-		8C7695591503E702B562ADF6D127F5E4 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
-		8C90EB7FF35B874762C81ABEE1484249 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
-		8D0D72550A734D793F2C3722DF1E94B9 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		6C3C1EB539A57B6F7CBF5F5F61AEC46A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		717331112CB59312682A4B413ABE5212 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
+		725E5604507920528C9A381A44F2068D /* Promise+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Async.swift"; path = "Sources/Promises/Promise+Async.swift"; sourceTree = "<group>"; };
+		75F3EE7450C6F0000BD32C424F5304C7 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
+		76BD7B9AF7FB3FACBEE5D2D48F0E994B /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
+		783F2A2FAAA5BB06BDFFDC0CDB905A07 /* Promise+Race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Race.swift"; path = "Sources/Promises/Promise+Race.swift"; sourceTree = "<group>"; };
+		7BFE4B1830F470A24112A4645AFB522D /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
+		82B7A20665CCF96EF2276FA1C2E5E923 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
+		83C500C80CBE9BF83E3044CF78EEEF2B /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
+		85EB5DB98A1EB44ABD8DF9D9D13AE860 /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
+		870A680A861879BE80762DBBD400D0F5 /* PromisesSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-prefix.pch"; sourceTree = "<group>"; };
+		8A65F6CB67092DDADDF6C255C25F1ED2 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
+		8B29ED689D6DAEF45AF247DD74FDC582 /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Promises.framework; path = PromisesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D84F3825F83AB306E5FE389F146B5D1 /* Pods-BabbelFallingWordsQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BabbelFallingWordsQuiz.release.xcconfig"; sourceTree = "<group>"; };
-		8DE4EC96B34E3A691F898D6EBE64DA2B /* Promise+Retry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Retry.swift"; path = "Sources/Promises/Promise+Retry.swift"; sourceTree = "<group>"; };
-		8E2076ACA290F00540FB7E3C5C487384 /* FBLPromise+Wrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Wrap.m"; path = "Sources/FBLPromises/FBLPromise+Wrap.m"; sourceTree = "<group>"; };
-		96751FBF017F8188773844D7D312930C /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		9052E1E0E91E559700F1FF80F1C22B99 /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
+		90B1263954E7786D836563416AE41FF0 /* Promise+Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Do.swift"; path = "Sources/Promises/Promise+Do.swift"; sourceTree = "<group>"; };
+		92DE14536713A5D225709BEE0C8DC7DA /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
+		933264BD01436946141A591CB08C48CB /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
+		935BF841CC1DDD2AD825FF3B9505EBAD /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
+		9377EC98BCEE98F84FD1C97A9F92A346 /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
+		95C939479E61346205C6719CCDC8C1A2 /* Pods_BabbelFallingWordsQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BabbelFallingWordsQuizTests.framework; path = "Pods-BabbelFallingWordsQuizTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9776659A86F3B2F43F657131B8FD8C7F /* Pods-BabbelFallingWordsQuizTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BabbelFallingWordsQuizTests-umbrella.h"; sourceTree = "<group>"; };
-		98E1E198C16791E571A5224AC8171493 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promises/Promise.swift; sourceTree = "<group>"; };
-		991C525B3E1730CF776E457BDE587D47 /* Promise+Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Catch.swift"; path = "Sources/Promises/Promise+Catch.swift"; sourceTree = "<group>"; };
-		9D4C604E7EE78CEC2FD5D8A39ED44E65 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99067861C7A0D44932B2419718ECDBAA /* Promise+Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Delay.swift"; path = "Sources/Promises/Promise+Delay.swift"; sourceTree = "<group>"; };
+		9A2B761D74A1A2FB8233597E2861863F /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
+		9BF0C40B38AF6E4EEC84D6233485F7B5 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E769ADC402DC7B27042214F8D12AFB0 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
-		9E7815059AF451AF0B2B9FCD7F6C5367 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
-		9F5495ECF5D04D556C72034C66E6B573 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
-		A01912B35BFAC94604A5BE14FEF67244 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
-		A1688E3AF0E5851A916C0179201D5C65 /* fluid-slider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fluid-slider-dummy.m"; sourceTree = "<group>"; };
-		A69D01E8C5C96B110CCF99A14927D2BD /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
-		A9D5861D4E61F214A74F1C3945B95078 /* Promise+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+All.swift"; path = "Sources/Promises/Promise+All.swift"; sourceTree = "<group>"; };
-		AAC5E3848432BE025DFE3F77356A2A80 /* Promise+Recover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Recover.swift"; path = "Sources/Promises/Promise+Recover.swift"; sourceTree = "<group>"; };
+		A774562178BA89F4FD29F759EB1BCCF3 /* Promise+Testing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Testing.swift"; path = "Sources/Promises/Promise+Testing.swift"; sourceTree = "<group>"; };
 		ABA3DD7DC2F6C75694C971C4CFBFD043 /* Pods-BabbelFallingWordsQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BabbelFallingWordsQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACBDA0111C6A98D5F7743C3B50217F2B /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
-		AD42D55475447EC3EACD20902793AE02 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
-		AD783203CCDEC6F13F96CCC14223B1B5 /* fluid-slider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fluid-slider-prefix.pch"; sourceTree = "<group>"; };
-		AE4823B24EAB8695C4E1881E45599543 /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
-		B00797966E812680A71A832F75F27B75 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
-		B09B71969CEF1CB393FB1C0E8D406B8F /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
-		B0EF5CB84AC30FF3195CFDAECD913186 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
-		B297DB849F468096BCCAB1C44B9C1D16 /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
-		B2B55A3A8305A61455DE6736B91433AC /* fluid-slider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "fluid-slider.modulemap"; sourceTree = "<group>"; };
-		B624E6A5478426BBF1101BAAA2DE66BB /* Promise+Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Reduce.swift"; path = "Sources/Promises/Promise+Reduce.swift"; sourceTree = "<group>"; };
+		B0993F78134440FEB3993F8263BFDFE9 /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
+		B227871E38B364F54A1BA3A870092004 /* PromisesSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesSwift-Info.plist"; sourceTree = "<group>"; };
+		B2D4C8EA49AB33C743C3A54C47C16FD2 /* Promise+Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Reduce.swift"; path = "Sources/Promises/Promise+Reduce.swift"; sourceTree = "<group>"; };
 		B628FFE90B24D55459E3E0EE986F22E6 /* Pods-BabbelFallingWordsQuizTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BabbelFallingWordsQuizTests-Info.plist"; sourceTree = "<group>"; };
-		B6AFD2F4CA0E18BFBA8CE901194E8BAA /* Slider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Slider.swift; path = Sources/Slider.swift; sourceTree = "<group>"; };
-		BB43DD5C18AF1119D8619458FCFEA33F /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
-		BC153E1BA16B18CD53BEFB1FE288ACFC /* PromisesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-umbrella.h"; sourceTree = "<group>"; };
-		BC691F122CD5ACC7D77A7C8356A8CCCA /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
-		BF03BFBB7B5AF214DF89EB479592CEBD /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
-		BF39F045FC45768CEF1BF358B0CAACBF /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
-		C15A506E98C6F27DD90872CCE46AA14F /* Promise+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Validate.swift"; path = "Sources/Promises/Promise+Validate.swift"; sourceTree = "<group>"; };
-		C1DD300890FC79A65E534D6EF39C8081 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
-		C47D17D5ED4D88649B611DC2308B035D /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
-		C6138CDB781059D0584B146369700378 /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
-		C6ED98356758DFD14005C8A41019DD78 /* PromisesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesSwift.modulemap; sourceTree = "<group>"; };
+		BC2DFE1235BDA40D9167A794A49CBBC5 /* Promise+Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Timeout.swift"; path = "Sources/Promises/Promise+Timeout.swift"; sourceTree = "<group>"; };
+		BC3A2350E91ACCBBE4B577FB3007F7BB /* Promise+Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Catch.swift"; path = "Sources/Promises/Promise+Catch.swift"; sourceTree = "<group>"; };
+		BE6E10B771F2B76FC135DF4790E73C4E /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
+		BEAE9C8A6ACD765AAEEC786160BDE89F /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
+		C17DE9792847FE2F9CDFBB2347945627 /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
+		C4D345C6D3A91BF77F8AE5C2B5FE9934 /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
 		C74368E5B0A3AD4042D01FFB7B051179 /* Pods-BabbelFallingWordsQuizTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BabbelFallingWordsQuizTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C79823A9777467AB9342ACB84A2B935F /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
-		C7D0D4114A5D4F7BBD48361FB2119305 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
-		C85DD8BB3A02892DE6572398606ED618 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
-		C94D278E6206FECACA9EEB9E688F6EAB /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
-		CDC25195715D1F5EE29EE058D8803E10 /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
-		CFF4CBAEC51BAC61675BC8D529F77242 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C9A73692359950C98E672256B2BDDC /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
-		D2E5030351FD40D2803E6A05F1112781 /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
-		D39F521A241DFD2165A9EA7531A1AA18 /* PromisesSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesSwift-Info.plist"; sourceTree = "<group>"; };
-		D5805656F3E096E64D10CE65EB5DBCC2 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
-		D5CA0D74998A3DBF216324D8DEEA8497 /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
+		D1C0D8A69848A431B5060399A6A34925 /* Promise+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+All.swift"; path = "Sources/Promises/Promise+All.swift"; sourceTree = "<group>"; };
+		D1CA1CD795A80E4BF3B3D6BA3D76BE4E /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
 		D7D474CDA677F02C78D97DBA2439A123 /* Pods-BabbelFallingWordsQuizTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BabbelFallingWordsQuizTests-dummy.m"; sourceTree = "<group>"; };
-		D8BA9B30E262B032202E141F2717249F /* Promise+Race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Race.swift"; path = "Sources/Promises/Promise+Race.swift"; sourceTree = "<group>"; };
-		DF20FC87EBD814CF41B6AFDE94331FE0 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
-		DFEA1A6FC1614D21DD329DEFDA86525D /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
-		E4DB78589922B7E0C31FE77E4DA6DEC6 /* Promise+Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Delay.swift"; path = "Sources/Promises/Promise+Delay.swift"; sourceTree = "<group>"; };
+		DD7A6BC4D39E822D4DB2CEA7763F834A /* Promise+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Validate.swift"; path = "Sources/Promises/Promise+Validate.swift"; sourceTree = "<group>"; };
+		DDC8C566F3AD6DACBEAB2AB6B41F7AB2 /* Promise+Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Await.swift"; path = "Sources/Promises/Promise+Await.swift"; sourceTree = "<group>"; };
+		DF4350F63193E6A351567002D07980E1 /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
+		E027FDBC1B3112F37EA259755D41C4B5 /* PromisesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-umbrella.h"; sourceTree = "<group>"; };
+		E1821CBC95BC1E9A05CF1DEDD63AFB58 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promises/Promise.swift; sourceTree = "<group>"; };
+		E47DCA3FFDB0E6128EEF529043881EF9 /* Promise+Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Then.swift"; path = "Sources/Promises/Promise+Then.swift"; sourceTree = "<group>"; };
+		E5B65D69FB3D2EB3C5858E75BF8371B6 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
 		E66A975451C0F980127A98D37BBE65AE /* Pods-BabbelFallingWordsQuiz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BabbelFallingWordsQuiz-Info.plist"; sourceTree = "<group>"; };
-		E6A215B7EAE13A158543625EB68C23DB /* Filters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filters.swift; path = Sources/Filters.swift; sourceTree = "<group>"; };
-		EBE3C74ACF83D54768A9409EBFDA4646 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
-		EDDD7D829842EA4436C5CF215E92BFD3 /* Promise+Testing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Testing.swift"; path = "Sources/Promises/Promise+Testing.swift"; sourceTree = "<group>"; };
-		EE376825D5A94EB2A5F48B76F619D816 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
-		EE90833F2C6D1EA553EDFE85E9529C78 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
-		EE99E1B765526F9520D4B9E4FB22D38D /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
-		F58E238D78453278F2E3B0BA8485746B /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
-		F61D8865BAFF668C3568D023952780FC /* pop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
-		F774D7259EC582E3326887A21F679D56 /* Promise+Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Timeout.swift"; path = "Sources/Promises/Promise+Timeout.swift"; sourceTree = "<group>"; };
-		FD0BD5DC4638CFDC970FC7BB3ABC5ED0 /* PromisesSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesSwift-dummy.m"; sourceTree = "<group>"; };
-		FDF3BE48DB296A5A4CC81B6A56163B71 /* fluid-slider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fluid-slider-umbrella.h"; sourceTree = "<group>"; };
-		FE39230D6D2E96CE67DD6204A80A40D7 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
-		FE784302FE58F4AB8DD86D3D6DE23FD9 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
-		FE9D7ADA2450E993E720D584B32A505A /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		EA747548463D1AD437FA15BB33D927C5 /* PromisesObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.xcconfig; sourceTree = "<group>"; };
+		EBBBFCE4DC5367E2248E7FA112B110F0 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBLPromises.framework; path = PromisesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C12BD2208C1F408E47DC7083A346D /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
+		F17375348E43A11D9C3D60F8E4583154 /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
+		F239463CCA668AC34B6719F4B85D2B68 /* PromiseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromiseError.swift; path = Sources/Promises/PromiseError.swift; sourceTree = "<group>"; };
+		F34F47AAD88ADED51FA9115C255B45CD /* Promise+Always.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Always.swift"; path = "Sources/Promises/Promise+Always.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		142F115215F25BEB7EA7D7E42B3B8DB1 /* Frameworks */ = {
+		254BDC932A201C99201F43F50E4C54E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D896E959460F1C6DED024DB3B50C388F /* Foundation.framework in Frameworks */,
-				BFF7F62D9811752D578F60FD2B71C0D2 /* pop.framework in Frameworks */,
+				0BE22679E8C195AAFD739BA206CB0C2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,27 +291,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D4DB32A9EA409CC7E5DFAB6AB26310D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22C6D5CD7615913915763DD9FCE9D2BA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF950050421481D5B07BAB6C762EB4D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				54ABAF4E7F5C52EFC94D5473CF8FD74F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF3988DA1667EDBA6B3D0B18B68F196F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B44EA0FEFD8A68AB863B34B33311795B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,30 +311,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1056088CE635C119E20ED855E690A071 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CFF4CBAEC51BAC61675BC8D529F77242 /* FBLPromises.framework */,
-				5E9EBC9E46332B15494F22FE41A4E9FE /* pop.framework */,
-				B19AD374280C7D3636F5F3D5476F0CA8 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		16B7CC1CCBCB7870508FED49E0D33B59 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				048799D0D4A4A4AC1C47FE0B74097DDA /* pop.modulemap */,
-				28A58ED572D8955E849316CB8E000F47 /* pop.xcconfig */,
-				6C3652573BE16151E62D399C298311E0 /* pop-dummy.m */,
-				F61D8865BAFF668C3568D023952780FC /* pop-Info.plist */,
-				3F1577784E971512B5B9F84D3299A3BE /* pop-prefix.pch */,
-				C6138CDB781059D0584B146369700378 /* pop-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/pop";
-			sourceTree = "<group>";
-		};
 		1EF5B4588FCE2245CA7A322367159698 /* Pods-BabbelFallingWordsQuiz */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,91 +328,13 @@
 			path = "Target Support Files/Pods-BabbelFallingWordsQuiz";
 			sourceTree = "<group>";
 		};
-		28AF3DB164F16930308B17D0BA41EAAE /* pop */ = {
+		2D7219444627D2D5238868A4CCD5704D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64B2006CB2F4EAAD9BE5E099839BA024 /* FloatConversion.h */,
-				4E865C120BE787D693A3D900078BE551 /* POP.h */,
-				BF03BFBB7B5AF214DF89EB479592CEBD /* POPAction.h */,
-				FE9D7ADA2450E993E720D584B32A505A /* POPAnimatableProperty.h */,
-				6AA9EB2E7830C94A769239E4D5B1BFB3 /* POPAnimatableProperty.mm */,
-				7F1224855BC3751BB7CB4A6B14CC4B22 /* POPAnimatablePropertyTypes.h */,
-				2DBC9BECAB66CA3331372A3998DB5208 /* POPAnimation.h */,
-				6D17A05441F0FCE3340B97288552149F /* POPAnimation.mm */,
-				684721EBC20FE38505AFD8E7A20F5661 /* POPAnimationEvent.h */,
-				8D0D72550A734D793F2C3722DF1E94B9 /* POPAnimationEvent.mm */,
-				02FAC465121918CD1812A07E9F8188B3 /* POPAnimationEventInternal.h */,
-				DFEA1A6FC1614D21DD329DEFDA86525D /* POPAnimationExtras.h */,
-				9F5495ECF5D04D556C72034C66E6B573 /* POPAnimationExtras.mm */,
-				5A247383DE52FCBCC27BD9D9B6EA266C /* POPAnimationInternal.h */,
-				B0EF5CB84AC30FF3195CFDAECD913186 /* POPAnimationPrivate.h */,
-				ACBDA0111C6A98D5F7743C3B50217F2B /* POPAnimationRuntime.h */,
-				96751FBF017F8188773844D7D312930C /* POPAnimationRuntime.mm */,
-				2752A9F2DCB4EA147E510CCBBA06EE6C /* POPAnimationTracer.h */,
-				64368800DA8DF9C73544C0E06680C991 /* POPAnimationTracer.mm */,
-				EE90833F2C6D1EA553EDFE85E9529C78 /* POPAnimationTracerInternal.h */,
-				EE99E1B765526F9520D4B9E4FB22D38D /* POPAnimator.h */,
-				5DB4AD700F3105D21D4BF8FC285C3464 /* POPAnimator.mm */,
-				1EC9E56E9E2E86BF4FFECF4BF8F3E911 /* POPAnimatorPrivate.h */,
-				6F5C4FB1A1D5EA0521E8E2F2110F49A7 /* POPBasicAnimation.h */,
-				5F04EFE43802696E9A1AB4C87DF97244 /* POPBasicAnimation.mm */,
-				45BB3BA3DD363F76008C1E1725871EC0 /* POPBasicAnimationInternal.h */,
-				3D3D7B69065F3C15B8ADD4372652221E /* POPCGUtils.h */,
-				36EA54759C543EEAC351A620308EB2CE /* POPCGUtils.mm */,
-				4832C8A3176292671E2AC4D17C5858DF /* POPCustomAnimation.h */,
-				53C05498F127ED149C9CACA4F262D3CC /* POPCustomAnimation.mm */,
-				02CF7BAF4B564931F72FF55C6CC0C1EA /* POPDecayAnimation.h */,
-				FE39230D6D2E96CE67DD6204A80A40D7 /* POPDecayAnimation.mm */,
-				F58E238D78453278F2E3B0BA8485746B /* POPDecayAnimationInternal.h */,
-				76F31087B1BEC9A62770A8DB3A67567C /* POPDefines.h */,
-				44698B499A2D6C750BC83EF92FD87EA8 /* POPGeometry.h */,
-				C85DD8BB3A02892DE6572398606ED618 /* POPGeometry.mm */,
-				5FAACC6203E0BB9552088F0C3BF40F46 /* POPLayerExtras.h */,
-				AD42D55475447EC3EACD20902793AE02 /* POPLayerExtras.mm */,
-				EBE3C74ACF83D54768A9409EBFDA4646 /* POPMath.h */,
-				2334FDFF955C1AE97D9DF8DDF269D5F7 /* POPMath.mm */,
-				6A656CBAAE0F69F68032612A3798D072 /* POPPropertyAnimation.h */,
-				8C7695591503E702B562ADF6D127F5E4 /* POPPropertyAnimation.mm */,
-				362BBE7AB2C6AD8ACD920783F55730F3 /* POPPropertyAnimationInternal.h */,
-				9E769ADC402DC7B27042214F8D12AFB0 /* POPSpringAnimation.h */,
-				DF20FC87EBD814CF41B6AFDE94331FE0 /* POPSpringAnimation.mm */,
-				FE784302FE58F4AB8DD86D3D6DE23FD9 /* POPSpringAnimationInternal.h */,
-				8C90EB7FF35B874762C81ABEE1484249 /* POPSpringSolver.h */,
-				5A20FF85D226E5C3BF3B27D00E9E22E2 /* POPVector.h */,
-				3C3D40A409F8E4FCC363DAD31D8B4D9B /* POPVector.mm */,
-				D5805656F3E096E64D10CE65EB5DBCC2 /* TransformationMatrix.cpp */,
-				BB43DD5C18AF1119D8619458FCFEA33F /* TransformationMatrix.h */,
-				04F161966B37E1255EDC6521B297B367 /* UnitBezier.h */,
-				16B7CC1CCBCB7870508FED49E0D33B59 /* Support Files */,
+				62020A4F2BCB9E86DA99881A00474E3F /* FBLPromises.framework */,
+				901C6573DC7352F89FD5AC0EC3EA7C88 /* iOS */,
 			);
-			name = pop;
-			path = pop;
-			sourceTree = "<group>";
-		};
-		2B268B1C1DFF74EB7E681F0714825DA1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B09B71969CEF1CB393FB1C0E8D406B8F /* PromisesObjC.modulemap */,
-				8AD0C2F65AADE811194C8A4114BF61D7 /* PromisesObjC.xcconfig */,
-				64C662D94B820C7A2B273C73BAFF7726 /* PromisesObjC-dummy.m */,
-				54875FBD7BC5FC62E38CE6041A40E0DC /* PromisesObjC-Info.plist */,
-				D0C9A73692359950C98E672256B2BDDC /* PromisesObjC-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PromisesObjC";
-			sourceTree = "<group>";
-		};
-		33315CB3EFF055723360AF06DF8C7523 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C65B5B37BEB2FDD5312FC0BD4566217 /* FBLPromises.framework */,
-				34E5504BB2BAA846D9CA89D922F5E85A /* fluid_slider.framework */,
-				4B8E2FB608422E07AAA892EB95004B15 /* Pods_BabbelFallingWordsQuiz.framework */,
-				531264B7A36C8DFCD3474B77E77CA23E /* Pods_BabbelFallingWordsQuizTests.framework */,
-				9D4C604E7EE78CEC2FD5D8A39ED44E65 /* pop.framework */,
-				2D0C0F37CB04A1AA493CB8630D4D9645 /* Promises.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		45270192652D61AAE9F1BF185B2825F8 /* Pods-BabbelFallingWordsQuizTests */ = {
@@ -625,16 +353,75 @@
 			path = "Target Support Files/Pods-BabbelFallingWordsQuizTests";
 			sourceTree = "<group>";
 		};
-		56B1BFD1BE092C5BF2C9AF290AF5DF29 /* fluid-slider */ = {
+		48E280A21EF4D8C2F8599323F5235448 /* PromisesObjC */ = {
 			isa = PBXGroup;
 			children = (
-				E6A215B7EAE13A158543625EB68C23DB /* Filters.swift */,
-				B6AFD2F4CA0E18BFBA8CE901194E8BAA /* Slider.swift */,
-				34F51BDC245403CF602AC1A63EF6EB45 /* ValueView.swift */,
-				B930941C0A829EFABE398E54E3F5F119 /* Support Files */,
+				F17375348E43A11D9C3D60F8E4583154 /* FBLPromise.h */,
+				20055E1F3358900BFEE8A8B5E2F74773 /* FBLPromise.m */,
+				DF4350F63193E6A351567002D07980E1 /* FBLPromise+All.h */,
+				3C5BD0C5B0247C85BEAF735C82DE26CF /* FBLPromise+All.m */,
+				C17DE9792847FE2F9CDFBB2347945627 /* FBLPromise+Always.h */,
+				0356B219E06D100E8B9AAABAE50129A8 /* FBLPromise+Always.m */,
+				17A56CFC0EB1B8079C189AF8BC307131 /* FBLPromise+Any.h */,
+				9377EC98BCEE98F84FD1C97A9F92A346 /* FBLPromise+Any.m */,
+				C4D345C6D3A91BF77F8AE5C2B5FE9934 /* FBLPromise+Async.h */,
+				8A65F6CB67092DDADDF6C255C25F1ED2 /* FBLPromise+Async.m */,
+				2DDF7C0F36980FDC46A9854CDA6246C7 /* FBLPromise+Await.h */,
+				30115E969939C1810800AC27A4E01251 /* FBLPromise+Await.m */,
+				12F972AB008590608A7E48FAB2D0B354 /* FBLPromise+Catch.h */,
+				BEAE9C8A6ACD765AAEEC786160BDE89F /* FBLPromise+Catch.m */,
+				E5B65D69FB3D2EB3C5858E75BF8371B6 /* FBLPromise+Delay.h */,
+				717331112CB59312682A4B413ABE5212 /* FBLPromise+Delay.m */,
+				92DE14536713A5D225709BEE0C8DC7DA /* FBLPromise+Do.h */,
+				0F4FA9391A58C7135080B41B236F6968 /* FBLPromise+Do.m */,
+				1D45E603D0D972C20E7E891F528D14FA /* FBLPromise+Race.h */,
+				51DA0EDCD513B24F8842D5BCD648F529 /* FBLPromise+Race.m */,
+				4B2C8AE1EC4C0708EE9E53DFBF13A6A9 /* FBLPromise+Recover.h */,
+				ED4C12BD2208C1F408E47DC7083A346D /* FBLPromise+Recover.m */,
+				D1CA1CD795A80E4BF3B3D6BA3D76BE4E /* FBLPromise+Reduce.h */,
+				B0993F78134440FEB3993F8263BFDFE9 /* FBLPromise+Reduce.m */,
+				BE6E10B771F2B76FC135DF4790E73C4E /* FBLPromise+Retry.h */,
+				1009FF685BE3B45F8A0096C51C064970 /* FBLPromise+Retry.m */,
+				5FA9EC0B05758DE5EF955182E6F9B82C /* FBLPromise+Testing.h */,
+				76BD7B9AF7FB3FACBEE5D2D48F0E994B /* FBLPromise+Testing.m */,
+				1344C69FD84705E796FB7E098837301D /* FBLPromise+Then.h */,
+				83C500C80CBE9BF83E3044CF78EEEF2B /* FBLPromise+Then.m */,
+				935BF841CC1DDD2AD825FF3B9505EBAD /* FBLPromise+Timeout.h */,
+				07CD7C6AC3F2ECAAD9D61CFB1F3A6C27 /* FBLPromise+Timeout.m */,
+				7BFE4B1830F470A24112A4645AFB522D /* FBLPromise+Validate.h */,
+				9BF0C40B38AF6E4EEC84D6233485F7B5 /* FBLPromise+Validate.m */,
+				82B7A20665CCF96EF2276FA1C2E5E923 /* FBLPromise+Wrap.h */,
+				47F491AA3B88C49B61AEF78A83917F79 /* FBLPromise+Wrap.m */,
+				9A2B761D74A1A2FB8233597E2861863F /* FBLPromiseError.h */,
+				85EB5DB98A1EB44ABD8DF9D9D13AE860 /* FBLPromiseError.m */,
+				61EE2536AAAB2024FEB54549B7E44E56 /* FBLPromisePrivate.h */,
+				4B2B39D912DEEB025285FF2BE1FA7F80 /* FBLPromises.h */,
+				BF79A80D0EAFA31422D26A3AB15F425E /* Support Files */,
 			);
-			name = "fluid-slider";
-			path = "fluid-slider";
+			name = PromisesObjC;
+			path = PromisesObjC;
+			sourceTree = "<group>";
+		};
+		901C6573DC7352F89FD5AC0EC3EA7C88 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C3C1EB539A57B6F7CBF5F5F61AEC46A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		943B4711C7BEACCA35F4E783DCA162D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B41D0B0C82A399F6B1894D5F9976E9C /* PromisesSwift.modulemap */,
+				184D5548C356DF74A538AC6840C75C4F /* PromisesSwift.xcconfig */,
+				23B11AD49210F1B4781E770FCE74EE1B /* PromisesSwift-dummy.m */,
+				B227871E38B364F54A1BA3A870092004 /* PromisesSwift-Info.plist */,
+				870A680A861879BE80762DBBD400D0F5 /* PromisesSwift-prefix.pch */,
+				E027FDBC1B3112F37EA259755D41C4B5 /* PromisesSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromisesSwift";
 			sourceTree = "<group>";
 		};
 		9925BBABC8B8F8A80E0205E8D98B0403 /* Targets Support Files */ = {
@@ -646,207 +433,86 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AF209F9976FC3CD1DF34990E34314AAC /* Pods */ = {
+		AADD7726C614C00E7E5C49D8B9FF5C19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56B1BFD1BE092C5BF2C9AF290AF5DF29 /* fluid-slider */,
-				28AF3DB164F16930308B17D0BA41EAAE /* pop */,
-				F1B0A8A5FD772F7498A2F85BE6851940 /* PromisesObjC */,
-				B97C7EF3DF7B20D918D80CBF107A8FF5 /* PromisesSwift */,
+				EBBBFCE4DC5367E2248E7FA112B110F0 /* FBLPromises.framework */,
+				4D5E6969C0306397CB42DA8FF54BBDE2 /* Pods_BabbelFallingWordsQuiz.framework */,
+				95C939479E61346205C6719CCDC8C1A2 /* Pods_BabbelFallingWordsQuizTests.framework */,
+				8B29ED689D6DAEF45AF247DD74FDC582 /* Promises.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B19AD374280C7D3636F5F3D5476F0CA8 /* iOS */ = {
+		BF79A80D0EAFA31422D26A3AB15F425E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				02EF03DF7E538DF7618789FBE49489BF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B930941C0A829EFABE398E54E3F5F119 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2B55A3A8305A61455DE6736B91433AC /* fluid-slider.modulemap */,
-				37E0E5683224A05A298855FF24ED7D8A /* fluid-slider.xcconfig */,
-				A1688E3AF0E5851A916C0179201D5C65 /* fluid-slider-dummy.m */,
-				5EE7EC420996AA95B328170C1AD5651B /* fluid-slider-Info.plist */,
-				AD783203CCDEC6F13F96CCC14223B1B5 /* fluid-slider-prefix.pch */,
-				FDF3BE48DB296A5A4CC81B6A56163B71 /* fluid-slider-umbrella.h */,
+				75F3EE7450C6F0000BD32C424F5304C7 /* PromisesObjC.modulemap */,
+				EA747548463D1AD437FA15BB33D927C5 /* PromisesObjC.xcconfig */,
+				933264BD01436946141A591CB08C48CB /* PromisesObjC-dummy.m */,
+				3F58673713395F0E91D5AE2362A172B5 /* PromisesObjC-Info.plist */,
+				9052E1E0E91E559700F1FF80F1C22B99 /* PromisesObjC-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/fluid-slider";
-			sourceTree = "<group>";
-		};
-		B97C7EF3DF7B20D918D80CBF107A8FF5 /* PromisesSwift */ = {
-			isa = PBXGroup;
-			children = (
-				98E1E198C16791E571A5224AC8171493 /* Promise.swift */,
-				A9D5861D4E61F214A74F1C3945B95078 /* Promise+All.swift */,
-				089B4517A235711962A7C8EDA2802DC7 /* Promise+Always.swift */,
-				760C47D2A4CD2887F934506AC2600418 /* Promise+Any.swift */,
-				19A8915626EFFD43962B2FE832AEB4D0 /* Promise+Async.swift */,
-				5D43C02C21E121B329A4E294F1E59313 /* Promise+Await.swift */,
-				991C525B3E1730CF776E457BDE587D47 /* Promise+Catch.swift */,
-				E4DB78589922B7E0C31FE77E4DA6DEC6 /* Promise+Delay.swift */,
-				47CC4839D06861B552847B9CA8D35B2D /* Promise+Do.swift */,
-				D8BA9B30E262B032202E141F2717249F /* Promise+Race.swift */,
-				AAC5E3848432BE025DFE3F77356A2A80 /* Promise+Recover.swift */,
-				B624E6A5478426BBF1101BAAA2DE66BB /* Promise+Reduce.swift */,
-				8DE4EC96B34E3A691F898D6EBE64DA2B /* Promise+Retry.swift */,
-				EDDD7D829842EA4436C5CF215E92BFD3 /* Promise+Testing.swift */,
-				2239C81330BD4464C869A6702F383FEE /* Promise+Then.swift */,
-				F774D7259EC582E3326887A21F679D56 /* Promise+Timeout.swift */,
-				C15A506E98C6F27DD90872CCE46AA14F /* Promise+Validate.swift */,
-				8C23D905A0A3ED16984DD82A36ABAF33 /* Promise+Wrap.swift */,
-				881F954EE6A1B9FE72E1275DFE6BC7EF /* PromiseError.swift */,
-				C246FF83D88CF922982351EDDF617D27 /* Support Files */,
-			);
-			name = PromisesSwift;
-			path = PromisesSwift;
-			sourceTree = "<group>";
-		};
-		C246FF83D88CF922982351EDDF617D27 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6ED98356758DFD14005C8A41019DD78 /* PromisesSwift.modulemap */,
-				133515CEC4987E66200F5E3B86B78E4A /* PromisesSwift.xcconfig */,
-				FD0BD5DC4638CFDC970FC7BB3ABC5ED0 /* PromisesSwift-dummy.m */,
-				D39F521A241DFD2165A9EA7531A1AA18 /* PromisesSwift-Info.plist */,
-				40B2A7A7E1E8F7ACC418FF1276836837 /* PromisesSwift-prefix.pch */,
-				BC153E1BA16B18CD53BEFB1FE288ACFC /* PromisesSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PromisesSwift";
+			path = "../Target Support Files/PromisesObjC";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1056088CE635C119E20ED855E690A071 /* Frameworks */,
-				AF209F9976FC3CD1DF34990E34314AAC /* Pods */,
-				33315CB3EFF055723360AF06DF8C7523 /* Products */,
+				2D7219444627D2D5238868A4CCD5704D /* Frameworks */,
+				E348F305BDE3AA75A6086409DFE02797 /* Pods */,
+				AADD7726C614C00E7E5C49D8B9FF5C19 /* Products */,
 				9925BBABC8B8F8A80E0205E8D98B0403 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F1B0A8A5FD772F7498A2F85BE6851940 /* PromisesObjC */ = {
+		E348F305BDE3AA75A6086409DFE02797 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A04282116F446D9146376FC0AC318E1 /* FBLPromise.h */,
-				1BA941903C3F734FE43A2E0B4BE59846 /* FBLPromise.m */,
-				C79823A9777467AB9342ACB84A2B935F /* FBLPromise+All.h */,
-				BC691F122CD5ACC7D77A7C8356A8CCCA /* FBLPromise+All.m */,
-				19A453F5740A2323B5299C04819B867D /* FBLPromise+Always.h */,
-				23B89C9D834138EA906986B16AEC3D75 /* FBLPromise+Always.m */,
-				046B7DFA28B20645EA9AE313F0C097C5 /* FBLPromise+Any.h */,
-				BF39F045FC45768CEF1BF358B0CAACBF /* FBLPromise+Any.m */,
-				594B5A250E56C6A02BB96CD1C5EEC4D1 /* FBLPromise+Async.h */,
-				6215BB862C3CB6C4D303E4AACE691095 /* FBLPromise+Async.m */,
-				883D7E65AA5ED8A386256A7E8C389102 /* FBLPromise+Await.h */,
-				196790720DD4EA47313D45475C3B99C7 /* FBLPromise+Await.m */,
-				C94D278E6206FECACA9EEB9E688F6EAB /* FBLPromise+Catch.h */,
-				4B9545E3A11D2C874453AD209852674D /* FBLPromise+Catch.m */,
-				0F2D1D838D88E8589DEAE0CDC13C3A3E /* FBLPromise+Delay.h */,
-				A01912B35BFAC94604A5BE14FEF67244 /* FBLPromise+Delay.m */,
-				D2E5030351FD40D2803E6A05F1112781 /* FBLPromise+Do.h */,
-				B297DB849F468096BCCAB1C44B9C1D16 /* FBLPromise+Do.m */,
-				C1DD300890FC79A65E534D6EF39C8081 /* FBLPromise+Race.h */,
-				6ACC0D89B54B3C8E59006AFAB162D89D /* FBLPromise+Race.m */,
-				EE376825D5A94EB2A5F48B76F619D816 /* FBLPromise+Recover.h */,
-				5DEF4357A9090D7BBEE0F5EDFC68D9EE /* FBLPromise+Recover.m */,
-				D5CA0D74998A3DBF216324D8DEEA8497 /* FBLPromise+Reduce.h */,
-				CDC25195715D1F5EE29EE058D8803E10 /* FBLPromise+Reduce.m */,
-				A69D01E8C5C96B110CCF99A14927D2BD /* FBLPromise+Retry.h */,
-				0D7F56A99049CF07D5015D80C9F4A11D /* FBLPromise+Retry.m */,
-				B00797966E812680A71A832F75F27B75 /* FBLPromise+Testing.h */,
-				10FB0E480D2698668E614F0337053A64 /* FBLPromise+Testing.m */,
-				7FA7D05E19ADA68B15D94B669C84C00D /* FBLPromise+Then.h */,
-				5A901518BC97D7FDC3082FF99376613F /* FBLPromise+Then.m */,
-				AE4823B24EAB8695C4E1881E45599543 /* FBLPromise+Timeout.h */,
-				42803C5D2ECB9AF5EB1AB2EBF0A58B97 /* FBLPromise+Timeout.m */,
-				78B7A3A694409D801A141FAB601D3DC9 /* FBLPromise+Validate.h */,
-				C7D0D4114A5D4F7BBD48361FB2119305 /* FBLPromise+Validate.m */,
-				C47D17D5ED4D88649B611DC2308B035D /* FBLPromise+Wrap.h */,
-				8E2076ACA290F00540FB7E3C5C487384 /* FBLPromise+Wrap.m */,
-				312D176B74895F80AE0FDE3844311D02 /* FBLPromiseError.h */,
-				54A37425B3931AE4B23FD2446F608B16 /* FBLPromiseError.m */,
-				9E7815059AF451AF0B2B9FCD7F6C5367 /* FBLPromisePrivate.h */,
-				7AF7EA94C2C3356802DD71453B049C22 /* FBLPromises.h */,
-				2B268B1C1DFF74EB7E681F0714825DA1 /* Support Files */,
+				48E280A21EF4D8C2F8599323F5235448 /* PromisesObjC */,
+				F9FA77426198EB70ECD684E7A3CEAD7B /* PromisesSwift */,
 			);
-			name = PromisesObjC;
-			path = PromisesObjC;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9FA77426198EB70ECD684E7A3CEAD7B /* PromisesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E1821CBC95BC1E9A05CF1DEDD63AFB58 /* Promise.swift */,
+				D1C0D8A69848A431B5060399A6A34925 /* Promise+All.swift */,
+				F34F47AAD88ADED51FA9115C255B45CD /* Promise+Always.swift */,
+				5A75E9AB912812BE18361554636F8230 /* Promise+Any.swift */,
+				725E5604507920528C9A381A44F2068D /* Promise+Async.swift */,
+				DDC8C566F3AD6DACBEAB2AB6B41F7AB2 /* Promise+Await.swift */,
+				BC3A2350E91ACCBBE4B577FB3007F7BB /* Promise+Catch.swift */,
+				99067861C7A0D44932B2419718ECDBAA /* Promise+Delay.swift */,
+				90B1263954E7786D836563416AE41FF0 /* Promise+Do.swift */,
+				783F2A2FAAA5BB06BDFFDC0CDB905A07 /* Promise+Race.swift */,
+				1A3D99EF7E7ED073E774C24302E38E07 /* Promise+Recover.swift */,
+				B2D4C8EA49AB33C743C3A54C47C16FD2 /* Promise+Reduce.swift */,
+				627CBCF65FE274B7E67E4BA494FDDB5D /* Promise+Retry.swift */,
+				A774562178BA89F4FD29F759EB1BCCF3 /* Promise+Testing.swift */,
+				E47DCA3FFDB0E6128EEF529043881EF9 /* Promise+Then.swift */,
+				BC2DFE1235BDA40D9167A794A49CBBC5 /* Promise+Timeout.swift */,
+				DD7A6BC4D39E822D4DB2CEA7763F834A /* Promise+Validate.swift */,
+				6264501B5E9929B9D5CB2510EC37F18F /* Promise+Wrap.swift */,
+				F239463CCA668AC34B6719F4B85D2B68 /* PromiseError.swift */,
+				943B4711C7BEACCA35F4E783DCA162D5 /* Support Files */,
+			);
+			name = PromisesSwift;
+			path = PromisesSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		015259A212C96D3DE40D958209332E19 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65CAE86ECB22CCBA90F8D3FDA02178FE /* Pods-BabbelFallingWordsQuiz-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FF4B25E8115B4109157EE239B33B528 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC000A136327B5C08E09D76756544D06 /* FloatConversion.h in Headers */,
-				B02B3BBFDCA2163B81E8F84CD5A9B57E /* pop-umbrella.h in Headers */,
-				6306EC6BCDE0CADB7D3451A23D941AFB /* POP.h in Headers */,
-				86796ABFCC881A1F4EBBFDF093BB5F3D /* POPAction.h in Headers */,
-				7B871C03032E126F1200182E6BE4090C /* POPAnimatableProperty.h in Headers */,
-				4CA201C60377F19D331884FA6926D313 /* POPAnimatablePropertyTypes.h in Headers */,
-				6F750EF1468E96410061049E6815524D /* POPAnimation.h in Headers */,
-				235DC04E36E5EEB331F1D244695B0BEB /* POPAnimationEvent.h in Headers */,
-				928DF3F7DC22274F563D370250A3EE93 /* POPAnimationEventInternal.h in Headers */,
-				96E40DE235EF38112A483646C57BA231 /* POPAnimationExtras.h in Headers */,
-				DDD25CA1AE26B5535037BBA20FF594C7 /* POPAnimationInternal.h in Headers */,
-				474A4F0127C55454DF44549E89A9F045 /* POPAnimationPrivate.h in Headers */,
-				1CC14F9375049B82AD1EA4894D8B2995 /* POPAnimationRuntime.h in Headers */,
-				07B65C139357208C8EBAE04139093B8B /* POPAnimationTracer.h in Headers */,
-				470ED7FC500846C43A963EAF06A5EE22 /* POPAnimationTracerInternal.h in Headers */,
-				20BD543D58705CD70CE70C1FFF9ED0C2 /* POPAnimator.h in Headers */,
-				49D0195E879BF28345DF7A9215B59F1A /* POPAnimatorPrivate.h in Headers */,
-				279893782157EB291AA87E47895301CB /* POPBasicAnimation.h in Headers */,
-				241B111928E20BFCBCF4B2D35BB59AE4 /* POPBasicAnimationInternal.h in Headers */,
-				9EFA6E82160F41C50082854E00532BA3 /* POPCGUtils.h in Headers */,
-				8BC5960474388080AC309426F85D6BFA /* POPCustomAnimation.h in Headers */,
-				8BDCBD0BD52FE32FAA61A3373919663E /* POPDecayAnimation.h in Headers */,
-				0AF235C870A3B64E6CDFD98E1F425D00 /* POPDecayAnimationInternal.h in Headers */,
-				1C8298055AD1480907E4F310A499F629 /* POPDefines.h in Headers */,
-				C202B49C7A23A484FB06F86E31B15F78 /* POPGeometry.h in Headers */,
-				CF2225BD93F68053354C4443A41B2599 /* POPLayerExtras.h in Headers */,
-				66AA46A36904235186FEDF5D80498B7F /* POPMath.h in Headers */,
-				E2AECE5CB4161EE926001D08D6736105 /* POPPropertyAnimation.h in Headers */,
-				217761D6778EB6B68CD1CF58938805DE /* POPPropertyAnimationInternal.h in Headers */,
-				F88C61C11E4764A51A594C20C3F8E019 /* POPSpringAnimation.h in Headers */,
-				A583D6C2031D5C8887DE05EEEABBF57E /* POPSpringAnimationInternal.h in Headers */,
-				610CA997F58F694987BE4991DF9F198A /* POPSpringSolver.h in Headers */,
-				DEBEB278AE3F9655A954BFAB82935E11 /* POPVector.h in Headers */,
-				F1FC76B2790EF9D6D0EF180AAECCB0FE /* TransformationMatrix.h in Headers */,
-				1764B04EE5F271FF19F8DA6600216193 /* UnitBezier.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		41CF62A1CC2B31EB974F94A0CCE6C1E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				523D79D3368C535FD3A060D3626DBD9F /* Pods-BabbelFallingWordsQuizTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57AA88376FB2E79D677BDB3783914F79 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29CC53AE263F0E9BAD5881A07F4AD6CF /* fluid-slider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,6 +545,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE8AAF827F550AAFD83E1173A6A4E2B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684BC7CD34C2465F0258785FE3E730B2 /* Pods-BabbelFallingWordsQuiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FEA5F868EBEF71779296B1E685888E94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -890,24 +564,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0483D7F620C992E5C4BD62A7266EABB4 /* pop */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DB01EE56131917CAEB6A64D0EFF1848 /* Build configuration list for PBXNativeTarget "pop" */;
-			buildPhases = (
-				2FF4B25E8115B4109157EE239B33B528 /* Headers */,
-				6CE0558FB803B350B32F07E52CAD2818 /* Sources */,
-				EF3988DA1667EDBA6B3D0B18B68F196F /* Frameworks */,
-				5AA80EA9B4E1C14D61DCCCEB5D088FB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = pop;
-			productName = pop;
-			productReference = 9D4C604E7EE78CEC2FD5D8A39ED44E65 /* pop.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D44F3DD11D712F5862AA0398D78283E /* Build configuration list for PBXNativeTarget "PromisesObjC" */;
@@ -925,7 +581,7 @@
 			);
 			name = PromisesObjC;
 			productName = PromisesObjC;
-			productReference = 5C65B5B37BEB2FDD5312FC0BD4566217 /* FBLPromises.framework */;
+			productReference = EBBBFCE4DC5367E2248E7FA112B110F0 /* FBLPromises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		491DCE2F4157D3505946B8F6A8266EFF /* Pods-BabbelFallingWordsQuizTests */ = {
@@ -944,7 +600,7 @@
 			);
 			name = "Pods-BabbelFallingWordsQuizTests";
 			productName = "Pods-BabbelFallingWordsQuizTests";
-			productReference = 531264B7A36C8DFCD3474B77E77CA23E /* Pods_BabbelFallingWordsQuizTests.framework */;
+			productReference = 95C939479E61346205C6719CCDC8C1A2 /* Pods_BabbelFallingWordsQuizTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */ = {
@@ -963,48 +619,27 @@
 			);
 			name = PromisesSwift;
 			productName = PromisesSwift;
-			productReference = 2D0C0F37CB04A1AA493CB8630D4D9645 /* Promises.framework */;
+			productReference = 8B29ED689D6DAEF45AF247DD74FDC582 /* Promises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B88206BD9A5853A40AF326BF2084B3EA /* Pods-BabbelFallingWordsQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8772C2A8F857216DFCA56B5513E83AE /* Build configuration list for PBXNativeTarget "Pods-BabbelFallingWordsQuiz" */;
+			buildConfigurationList = 241F0164A5629DBC70C88F68F065FEF9 /* Build configuration list for PBXNativeTarget "Pods-BabbelFallingWordsQuiz" */;
 			buildPhases = (
-				015259A212C96D3DE40D958209332E19 /* Headers */,
-				4E9B978019C7E584B6F3B27D52698850 /* Sources */,
-				5D4DB32A9EA409CC7E5DFAB6AB26310D /* Frameworks */,
-				FC4FAF0D918E2BB835A64ACAD80BBAF8 /* Resources */,
+				AE8AAF827F550AAFD83E1173A6A4E2B6 /* Headers */,
+				FC88BC7AE0EE53BD66C4343654B2FDB9 /* Sources */,
+				254BDC932A201C99201F43F50E4C54E6 /* Frameworks */,
+				240565576827B764C470651757B9D218 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC2745113CFB2D9DEE6062D3BC1D311C /* PBXTargetDependency */,
-				DEB5736B607CBFB8BAA384FBBECFA7B6 /* PBXTargetDependency */,
-				908BD6558120B3696FF35960DA835730 /* PBXTargetDependency */,
-				CA40496BE7A43583EF4ED870E9AA184C /* PBXTargetDependency */,
+				1AEF30E8B4E364788A6FD5FC5683213C /* PBXTargetDependency */,
+				538D20648D2E00EF5430ECD2E9EC1E94 /* PBXTargetDependency */,
 			);
 			name = "Pods-BabbelFallingWordsQuiz";
 			productName = "Pods-BabbelFallingWordsQuiz";
-			productReference = 4B8E2FB608422E07AAA892EB95004B15 /* Pods_BabbelFallingWordsQuiz.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EDE5D5EAAD327B650F11E4D21FAA723D /* fluid-slider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFB235BB49A5803F43CB5A05125333F4 /* Build configuration list for PBXNativeTarget "fluid-slider" */;
-			buildPhases = (
-				57AA88376FB2E79D677BDB3783914F79 /* Headers */,
-				F89E9318C407DF65D65F26DF389E17F9 /* Sources */,
-				142F115215F25BEB7EA7D7E42B3B8DB1 /* Frameworks */,
-				B4C9323ACC724D17012B621EF7EC7580 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D65223D862E32CDA016A521781B437E5 /* PBXTargetDependency */,
-			);
-			name = "fluid-slider";
-			productName = "fluid-slider";
-			productReference = 34E5504BB2BAA846D9CA89D922F5E85A /* fluid_slider.framework */;
+			productReference = 4D5E6969C0306397CB42DA8FF54BBDE2 /* Pods_BabbelFallingWordsQuiz.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1024,14 +659,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 33315CB3EFF055723360AF06DF8C7523 /* Products */;
+			productRefGroup = AADD7726C614C00E7E5C49D8B9FF5C19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDE5D5EAAD327B650F11E4D21FAA723D /* fluid-slider */,
 				B88206BD9A5853A40AF326BF2084B3EA /* Pods-BabbelFallingWordsQuiz */,
 				491DCE2F4157D3505946B8F6A8266EFF /* Pods-BabbelFallingWordsQuizTests */,
-				0483D7F620C992E5C4BD62A7266EABB4 /* pop */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 				A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */,
 			);
@@ -1046,7 +679,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AA80EA9B4E1C14D61DCCCEB5D088FB2 /* Resources */ = {
+		240565576827B764C470651757B9D218 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1060,21 +693,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4C9323ACC724D17012B621EF7EC7580 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ECBB0DF808C95CB0691AFA9B8A3DDA9F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC4FAF0D918E2BB835A64ACAD80BBAF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1119,40 +738,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B978019C7E584B6F3B27D52698850 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59AF98EDA86F9416CB87B2AA27B895C6 /* Pods-BabbelFallingWordsQuiz-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CE0558FB803B350B32F07E52CAD2818 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75378C5B617F267B40CB53D11BB58F8F /* pop-dummy.m in Sources */,
-				85B49B90A5C8819CAAAD2C782B3692B5 /* POPAnimatableProperty.mm in Sources */,
-				9AC035372A17582F5C544D667FA1F883 /* POPAnimation.mm in Sources */,
-				CFF151AACDA9DAE72D308699219B110D /* POPAnimationEvent.mm in Sources */,
-				4EB8C14FF334B4F466B6FFEDF309DA51 /* POPAnimationExtras.mm in Sources */,
-				36AE2DBE5A2F7514ADE1D03ED0C390EB /* POPAnimationRuntime.mm in Sources */,
-				D813F4CC1366B44107F51CA20C043905 /* POPAnimationTracer.mm in Sources */,
-				001130ED4612916A92CF1199275EAC2D /* POPAnimator.mm in Sources */,
-				72FBDED38AB495E80A09719116C3505F /* POPBasicAnimation.mm in Sources */,
-				01CBF84B59631CF22CA9C8888A5F4202 /* POPCGUtils.mm in Sources */,
-				502AA91E41F007CCE7C4982EB1594EBA /* POPCustomAnimation.mm in Sources */,
-				48B1B69D2B0C4E866F689C30F3E40604 /* POPDecayAnimation.mm in Sources */,
-				9915D08D6A6D76CE3464F11008B9C34E /* POPGeometry.mm in Sources */,
-				BBCD596B5F7AADC69F46794B1FA6B260 /* POPLayerExtras.mm in Sources */,
-				24DC00A2FEAB68E3C96F2A5567365927 /* POPMath.mm in Sources */,
-				C7A850FE72AAA98AFA062C580C586738 /* POPPropertyAnimation.mm in Sources */,
-				802B916EFC20C3DDF66EE41363810C33 /* POPSpringAnimation.mm in Sources */,
-				EC305C485F52FF74E820B5F49611695B /* POPVector.mm in Sources */,
-				35305036FA96E027DECAA6D53C158795 /* TransformationMatrix.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE4B44CD41E90A854224D238152E2363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1180,31 +765,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F89E9318C407DF65D65F26DF389E17F9 /* Sources */ = {
+		FC88BC7AE0EE53BD66C4343654B2FDB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59148E516322ADEA3C320319E14859FD /* Filters.swift in Sources */,
-				2814D12DF7BBE14AC98DE67F11E763F0 /* fluid-slider-dummy.m in Sources */,
-				F03C30661FED61CA63452753D4CD4BB9 /* Slider.swift in Sources */,
-				63F2B1DE2285E46AFCB2AB71CE5ADF0F /* ValueView.swift in Sources */,
+				26C9897870E6DEB6F7D70F5792D66692 /* Pods-BabbelFallingWordsQuiz-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1AEF30E8B4E364788A6FD5FC5683213C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = E3981B0B861B346A8E18579E24F0DE82 /* PBXContainerItemProxy */;
+		};
 		239517F67B4555CB7F82302BF2CD3758 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromisesObjC;
 			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
 			targetProxy = 8F0DFE7A5DB2A41EE33DB38C72AC6DAC /* PBXContainerItemProxy */;
 		};
-		908BD6558120B3696FF35960DA835730 /* PBXTargetDependency */ = {
+		538D20648D2E00EF5430ECD2E9EC1E94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "fluid-slider";
-			target = EDE5D5EAAD327B650F11E4D21FAA723D /* fluid-slider */;
-			targetProxy = B978F63AFB9FA4F4B4D3BB9DAB103F4A /* PBXContainerItemProxy */;
+			name = PromisesSwift;
+			target = A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */;
+			targetProxy = 2B146D92617831B732BFC5212692E102 /* PBXContainerItemProxy */;
 		};
 		C0729B5F8774149B7CADA077BF18D72E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1212,72 +800,9 @@
 			target = B88206BD9A5853A40AF326BF2084B3EA /* Pods-BabbelFallingWordsQuiz */;
 			targetProxy = ECC1C096612A36F0B0A1466CE8559EF8 /* PBXContainerItemProxy */;
 		};
-		CA40496BE7A43583EF4ED870E9AA184C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = pop;
-			target = 0483D7F620C992E5C4BD62A7266EABB4 /* pop */;
-			targetProxy = D1B3C25DE37669143160DFC3092A7E97 /* PBXContainerItemProxy */;
-		};
-		CC2745113CFB2D9DEE6062D3BC1D311C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PromisesObjC;
-			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
-			targetProxy = 5C76675F40C37A6E0D523D348D8C204E /* PBXContainerItemProxy */;
-		};
-		D65223D862E32CDA016A521781B437E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = pop;
-			target = 0483D7F620C992E5C4BD62A7266EABB4 /* pop */;
-			targetProxy = 16C7C15DC0D4225E30822C9C2D1ED5D3 /* PBXContainerItemProxy */;
-		};
-		DEB5736B607CBFB8BAA384FBBECFA7B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PromisesSwift;
-			target = A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */;
-			targetProxy = 57FCA57F4CA9C3E47942B4FB0AA57B39 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E285F099637BDEC867AD8EF0DA7D925 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D84F3825F83AB306E5FE389F146B5D1 /* Pods-BabbelFallingWordsQuiz.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1342,9 +867,48 @@
 			};
 			name = Debug;
 		};
+		2768D3FC39303E535849744CB5295F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D84F3825F83AB306E5FE389F146B5D1 /* Pods-BabbelFallingWordsQuiz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3BAC126F3503C91255AE8F1186B79900 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133515CEC4987E66200F5E3B86B78E4A /* PromisesSwift.xcconfig */;
+			baseConfigurationReference = 184D5548C356DF74A538AC6840C75C4F /* PromisesSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1437,41 +1001,6 @@
 			};
 			name = Release;
 		};
-		41629D12AC79BD65022FA3A491974FE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28A58ED572D8955E849316CB8E000F47 /* pop.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/pop/pop-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
-				PRODUCT_MODULE_NAME = pop;
-				PRODUCT_NAME = pop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5D5022BC3E769FBE832A2D6353951865 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABA3DD7DC2F6C75694C971C4CFBFD043 /* Pods-BabbelFallingWordsQuizTests.debug.xcconfig */;
@@ -1549,44 +1078,7 @@
 			};
 			name = Release;
 		};
-		9C6A3B305CB64830F16F64714F6C05CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E0E5683224A05A298855FF24ED7D8A /* fluid-slider.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/fluid-slider/fluid-slider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fluid-slider/fluid-slider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/fluid-slider/fluid-slider.modulemap";
-				PRODUCT_MODULE_NAME = fluid_slider;
-				PRODUCT_NAME = fluid_slider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CE6A26FF64E23DD9C3E9C2E50203059E /* Debug */ = {
+		DF6DBD8FA5FC1F644DE859FF06F61FFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09ECFF84BCE102C58D33595FA734EE61 /* Pods-BabbelFallingWordsQuiz.debug.xcconfig */;
 			buildSettings = {
@@ -1624,81 +1116,9 @@
 			};
 			name = Debug;
 		};
-		D1F14C73C4141A0E4ECF0A8C19D735F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E0E5683224A05A298855FF24ED7D8A /* fluid-slider.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/fluid-slider/fluid-slider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fluid-slider/fluid-slider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/fluid-slider/fluid-slider.modulemap";
-				PRODUCT_MODULE_NAME = fluid_slider;
-				PRODUCT_NAME = fluid_slider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DD8049A5BC7322903EAC138A44AC1843 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28A58ED572D8955E849316CB8E000F47 /* pop.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/pop/pop-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
-				PRODUCT_MODULE_NAME = pop;
-				PRODUCT_NAME = pop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E63B5F000CB9DB1DD1835ED1DE34F632 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AD0C2F65AADE811194C8A4114BF61D7 /* PromisesObjC.xcconfig */;
+			baseConfigurationReference = EA747548463D1AD437FA15BB33D927C5 /* PromisesObjC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1732,7 +1152,7 @@
 		};
 		FB26C44C2677ECED5EBC4086E3AF7E9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133515CEC4987E66200F5E3B86B78E4A /* PromisesSwift.xcconfig */;
+			baseConfigurationReference = 184D5548C356DF74A538AC6840C75C4F /* PromisesSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1768,7 +1188,7 @@
 		};
 		FE101E699F29D2436A41D6A6DE14CA19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AD0C2F65AADE811194C8A4114BF61D7 /* PromisesObjC.xcconfig */;
+			baseConfigurationReference = EA747548463D1AD437FA15BB33D927C5 /* PromisesObjC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1813,11 +1233,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DB01EE56131917CAEB6A64D0EFF1848 /* Build configuration list for PBXNativeTarget "pop" */ = {
+		241F0164A5629DBC70C88F68F065FEF9 /* Build configuration list for PBXNativeTarget "Pods-BabbelFallingWordsQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41629D12AC79BD65022FA3A491974FE3 /* Debug */,
-				DD8049A5BC7322903EAC138A44AC1843 /* Release */,
+				DF6DBD8FA5FC1F644DE859FF06F61FFA /* Debug */,
+				2768D3FC39303E535849744CB5295F6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1845,24 +1265,6 @@
 			buildConfigurations = (
 				E63B5F000CB9DB1DD1835ED1DE34F632 /* Debug */,
 				FE101E699F29D2436A41D6A6DE14CA19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DFB235BB49A5803F43CB5A05125333F4 /* Build configuration list for PBXNativeTarget "fluid-slider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1F14C73C4141A0E4ECF0A8C19D735F3 /* Debug */,
-				9C6A3B305CB64830F16F64714F6C05CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8772C2A8F857216DFCA56B5513E83AE /* Build configuration list for PBXNativeTarget "Pods-BabbelFallingWordsQuiz" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE6A26FF64E23DD9C3E9C2E50203059E /* Debug */,
-				1E285F099637BDEC867AD8EF0DA7D925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

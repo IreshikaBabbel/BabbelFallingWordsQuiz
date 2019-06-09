@@ -7,7 +7,6 @@ target 'BabbelFallingWordsQuiz' do
 
   # Pods for BabbelFallingWordsQuiz
 	pod 'PromisesSwift'
-  pod 'fluid-slider'
   target 'BabbelFallingWordsQuizTests' do
     inherit! :search_paths
     # Pods for testing

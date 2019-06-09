@@ -57,6 +57,7 @@ class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
     }
 
     func setInitialViewLogic() {
+            defaultLangTextLabel.adjustsFontSizeToFitWidth = true
             currentDataModelCount = initialCount
             manager.totalScore = initialCount
             totalResultTextLabel.text = "\(0)/ \(wordDataModel.count)"
@@ -96,8 +97,8 @@ class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
     func setSecondaryLangUIToMainView() -> FallingCustomView {
         let fallingCustomView =  Bundle.main.loadNibNamed("FallingCustomView", owner: self, options: nil)?.first as! FallingCustomView
         fallingCustomView.frame =
-            CGRect(x:  0, y: 100.0, width: 150, height: 225)
-        view.addSubview(fallingCustomView)
+            CGRect(x:  0, y: self.defaultLangContainerView.frame.maxY, width: 150, height: 225)
+        view.insertSubview(fallingCustomView, at: 1)
         fallingCustomView.clipsToBounds = true
         fallingCustomView.center.x = view.center.x
         return fallingCustomView

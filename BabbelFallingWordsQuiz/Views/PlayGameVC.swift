@@ -23,20 +23,29 @@ class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
     // MARK: - Custom Global properties
     
     let manager = PlayGameManager()
-    
+    var wordDataModel = [WordDataModel]()
+
     // MARK: - Custom private properties
     
-    private var wordDataModel = [WordDataModel]()
     private var currentDataModelCount = 0
     private var initialCount = 0
     private var secondaryUIView: FallingCustomView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         setCustomUIPropertiesOfView()
         setInitialViewLogic()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        resetExsistingAnimation()
+
+    }
     // MARK: - Custom UI/Logic Implentation
     
     func setCustomUIPropertiesOfView()
@@ -44,16 +53,14 @@ class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
         defaultLangPlaceholderView.layer.borderColor = UIColor(red: 26/255, green: 82/255, blue: 118/255, alpha: 1).cgColor
         trueAnswerButton.layer.borderColor = UIColor(red: 130/255, green: 203/255, blue: 246/255, alpha: 1).cgColor
         falseAnswerButton.layer.borderColor = UIColor(red: 130/255, green: 203/255, blue: 246/255, alpha: 1).cgColor
+        self.navigationController?.navigationBar.tintColor = UIColor.white
     }
 
     func setInitialViewLogic() {
-        manager.readLanguageDataFromJson().then{returnedModelArr in
-            self.wordDataModel = returnedModelArr
-            self.currentDataModelCount = self.initialCount
-            self.manager.totalScore = self.initialCount
-            self.totalResultTextLabel.text = "\(0)/ \(self.wordDataModel.count)"
-            self.setAnimationToCurrentModel(currentModel: self.wordDataModel[self.currentDataModelCount])
-        }
+            currentDataModelCount = initialCount
+            manager.totalScore = initialCount
+            totalResultTextLabel.text = "\(0)/ \(wordDataModel.count)"
+            setAnimationToCurrentModel(currentModel: wordDataModel[currentDataModelCount])
     }
     
     @IBAction func onTrueAnswerButtonTouch(_ sender: UIButton) {
@@ -125,9 +132,9 @@ class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
     }
     
     func setUIIterationOfSecondaryLangUI() {
-        if currentDataModelCount != wordDataModel.count
+        if currentDataModelCount < wordDataModel.count
         {
-            resetSecondaryViewAnimation()
+            resetSecondaryLangViewAnimation()
         }
         else
         {
@@ -137,12 +144,11 @@ class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
             userFeedbackVC.delegate = self
             userFeedbackVC.modalPresentationStyle = .overCurrentContext
             userFeedbackVC.userScorePercentageVal = Int(manager.setPercentageOfTotalScore(totalModelCount: wordDataModel.count))
-            self.present(userFeedbackVC, animated: true, completion:  {
-            })
+            self.present(userFeedbackVC, animated: true, completion: nil)
         }
     }
     
-    func resetSecondaryViewAnimation(){
+    func resetSecondaryLangViewAnimation(){
         resetExsistingAnimation()
         setAnimationToCurrentModel(currentModel: wordDataModel[currentDataModelCount])
     }

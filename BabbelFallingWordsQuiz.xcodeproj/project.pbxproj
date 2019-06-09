@@ -22,6 +22,8 @@
 		8806E5DE22AD56730039D64D /* FallingCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5DD22AD56730039D64D /* FallingCustomView.xib */; };
 		8806E5E222AD75A10039D64D /* UserFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5E122AD75A10039D64D /* UserFeedbackVC.swift */; };
 		8806E5E422AD7C920039D64D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5E322AD7C920039D64D /* Localizable.strings */; };
+		8806E5E622AD98C60039D64D /* WordCountSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5E522AD98C60039D64D /* WordCountSelectionVC.swift */; };
+		8806E5E822AD9F880039D64D /* PlayGameManagerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5E722AD9F880039D64D /* PlayGameManagerTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8806E5DD22AD56730039D64D /* FallingCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FallingCustomView.xib; sourceTree = "<group>"; };
 		8806E5E122AD75A10039D64D /* UserFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedbackVC.swift; sourceTree = "<group>"; };
 		8806E5E322AD7C920039D64D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8806E5E522AD98C60039D64D /* WordCountSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountSelectionVC.swift; sourceTree = "<group>"; };
+		8806E5E722AD9F880039D64D /* PlayGameManagerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameManagerTestCase.swift; sourceTree = "<group>"; };
 		931FD0049A4E505998341C6B /* Pods_BabbelFallingWordsQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabbelFallingWordsQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C367BADC398A6B2C8A9242 /* Pods-BabbelFallingWordsQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabbelFallingWordsQuiz.debug.xcconfig"; path = "Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 		CABF57225F1E2B7E7705A3D8 /* Pods_BabbelFallingWordsQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabbelFallingWordsQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +153,7 @@
 		8806E5CA22AD30D60039D64D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8806E5E722AD9F880039D64D /* PlayGameManagerTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				8806E5D022AD31140039D64D /* CustomViews */,
 				8806E5D122AD332E0039D64D /* PlayGameVC.swift */,
 				8806E5E122AD75A10039D64D /* UserFeedbackVC.swift */,
+				8806E5E522AD98C60039D64D /* WordCountSelectionVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8806E5D222AD332E0039D64D /* PlayGameVC.swift in Sources */,
+				8806E5E622AD98C60039D64D /* WordCountSelectionVC.swift in Sources */,
 				8806E5DC22AD56640039D64D /* FallingCustomView.swift in Sources */,
 				8806E5E222AD75A10039D64D /* UserFeedbackVC.swift in Sources */,
 				8806E5D622AD39E00039D64D /* WordDataModel.swift in Sources */,
@@ -390,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8806E5C022AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift in Sources */,
+				8806E5E822AD9F880039D64D /* PlayGameManagerTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

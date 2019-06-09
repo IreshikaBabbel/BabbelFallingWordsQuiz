@@ -1,3 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
 ${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework
+${BUILT_PRODUCTS_DIR}/fluid-slider/fluid_slider.framework
+${BUILT_PRODUCTS_DIR}/pop/pop.framework

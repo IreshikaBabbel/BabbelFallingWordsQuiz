@@ -10,21 +10,27 @@ import UIKit
 
 class PlayGameVC: UIViewController {
 
+    // MARK: - UIView properties
+    
+    @IBOutlet weak var totalResultTextLabel: UILabel!
+    @IBOutlet weak var defaultLangTextLabel: UILabel!
+    @IBOutlet weak var falseAnswerButton: UIButton!
+    @IBOutlet weak var trueAnswerButton: UIButton!
+    @IBOutlet weak var defaultLangPlaceholderView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setCustomUIPropertiesOfView()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Custom UI/Logic Implentation
+    
+    func setCustomUIPropertiesOfView()
+    {
+        defaultLangPlaceholderView.layer.borderColor = UIColor(red: 26/255, green: 82/255, blue: 118/255, alpha: 1).cgColor
+        trueAnswerButton.layer.borderColor = UIColor(red: 130/255, green: 203/255, blue: 246/255, alpha: 1).cgColor
+        falseAnswerButton.layer.borderColor = UIColor(red: 130/255, green: 203/255, blue: 246/255, alpha: 1).cgColor
     }
-    */
 
 }

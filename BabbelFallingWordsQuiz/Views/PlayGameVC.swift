@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlayGameVC: UIViewController {
+class PlayGameVC: UIViewController, UserRetryDelegate {
 
     // MARK: - UIView properties
     
@@ -50,9 +50,8 @@ class PlayGameVC: UIViewController {
             self.wordDataModel = returnedModelArr
             self.currentDataModelCount = self.initialCount
             self.manager.totalScore = self.initialCount
-            self.totalResultTextLabel.text = "0"
+            self.totalResultTextLabel.text = "\(0)/ \(self.wordDataModel.count)"
             self.setAnimationToCurrentModel(currentModel: self.wordDataModel[self.currentDataModelCount])
-
         }
     }
     
@@ -74,6 +73,7 @@ class PlayGameVC: UIViewController {
         currentDataModelCount += 1
         secondaryUIView = setSecondaryLangUIToMainView()
         defaultLangTextLabel.text! = currentModel.defaultValue
+        secondaryUIView.secondaryLangTextLabel.text = currentModel.secondaryValue
         animator = UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 3, delay: 0, options: [], animations: { ()->
             Void in
             self.secondaryUIView.frame.origin.y = self.view.frame.maxY
@@ -97,12 +97,15 @@ class PlayGameVC: UIViewController {
     // MARK: - Animation Logic Implentation
     
     func getResultForAnswer(isAnswerTrue: Bool) -> Void {
+        var totalResultForUIUpdate = "0"
         if isAnswerTrue {
-            totalResultTextLabel.text =   manager.setTotalScoreAccordingToUserTap( scoreVal: 1 );
+            totalResultForUIUpdate =   manager.setTotalScoreAccordingToUserTap( scoreVal: 1 );
         }
         else{
-            totalResultTextLabel.text =   manager.setTotalScoreAccordingToUserTap( scoreVal: 0 );
+            totalResultForUIUpdate =   manager.setTotalScoreAccordingToUserTap( scoreVal: 0 );
         }
+        totalResultTextLabel.text = "\(totalResultForUIUpdate)/ \(self.wordDataModel.count)"
+
     }
     
     func setUIIterationOfSecondaryLangUI() {
@@ -112,7 +115,14 @@ class PlayGameVC: UIViewController {
         }
         else
         {
-
+            resetExsistingAnimation()
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let  userFeedbackVC = storyBoard.instantiateViewController(withIdentifier: "UserFeedbackVC") as! UserFeedbackVC
+            userFeedbackVC.delegate = self
+            userFeedbackVC.modalPresentationStyle = .overCurrentContext
+            userFeedbackVC.userScorePercentageVal = Int(manager.setPercentageOfTotalScore(totalModelCount: wordDataModel.count))
+            self.present(userFeedbackVC, animated: true, completion:  {
+            })
         }
     }
     
@@ -126,5 +136,12 @@ class PlayGameVC: UIViewController {
         animator?.stopAnimation(true)
         secondaryUIView.removeFromSuperview()
         self.view.layer.removeAllAnimations()
+    }
+    
+    func userStatusForRetying(isRetryTouched: Bool) {
+        if isRetryTouched
+        {
+            setInitialViewLogic()
+        }
     }
 }

@@ -20,6 +20,8 @@
 		8806E5D822AD3CD90039D64D /* PlayGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5D722AD3CD90039D64D /* PlayGameManager.swift */; };
 		8806E5DC22AD56640039D64D /* FallingCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5DB22AD56640039D64D /* FallingCustomView.swift */; };
 		8806E5DE22AD56730039D64D /* FallingCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5DD22AD56730039D64D /* FallingCustomView.xib */; };
+		8806E5E222AD75A10039D64D /* UserFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5E122AD75A10039D64D /* UserFeedbackVC.swift */; };
+		8806E5E422AD7C920039D64D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5E322AD7C920039D64D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8806E5D722AD3CD90039D64D /* PlayGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameManager.swift; sourceTree = "<group>"; };
 		8806E5DB22AD56640039D64D /* FallingCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingCustomView.swift; sourceTree = "<group>"; };
 		8806E5DD22AD56730039D64D /* FallingCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FallingCustomView.xib; sourceTree = "<group>"; };
+		8806E5E122AD75A10039D64D /* UserFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedbackVC.swift; sourceTree = "<group>"; };
+		8806E5E322AD7C920039D64D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		931FD0049A4E505998341C6B /* Pods_BabbelFallingWordsQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabbelFallingWordsQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C367BADC398A6B2C8A9242 /* Pods-BabbelFallingWordsQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabbelFallingWordsQuiz.debug.xcconfig"; path = "Target Support Files/Pods-BabbelFallingWordsQuiz/Pods-BabbelFallingWordsQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 		CABF57225F1E2B7E7705A3D8 /* Pods_BabbelFallingWordsQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabbelFallingWordsQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +156,7 @@
 		8806E5CB22AD30DE0039D64D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8806E5E322AD7C920039D64D /* Localizable.strings */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				8806E5AE22AD30C70039D64D /* Main.storyboard */,
 				8806E5D022AD31140039D64D /* CustomViews */,
 				8806E5D122AD332E0039D64D /* PlayGameVC.swift */,
+				8806E5E122AD75A10039D64D /* UserFeedbackVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8806E5B522AD30CB0039D64D /* LaunchScreen.storyboard in Resources */,
+				8806E5E422AD7C920039D64D /* Localizable.strings in Resources */,
 				8806E5D422AD39990039D64D /* words.json in Resources */,
 				8806E5B222AD30CB0039D64D /* Assets.xcassets in Resources */,
 				8806E5DE22AD56730039D64D /* FallingCustomView.xib in Resources */,
@@ -371,6 +378,7 @@
 			files = (
 				8806E5D222AD332E0039D64D /* PlayGameVC.swift in Sources */,
 				8806E5DC22AD56640039D64D /* FallingCustomView.swift in Sources */,
+				8806E5E222AD75A10039D64D /* UserFeedbackVC.swift in Sources */,
 				8806E5D622AD39E00039D64D /* WordDataModel.swift in Sources */,
 				8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */,
 				8806E5D822AD3CD90039D64D /* PlayGameManager.swift in Sources */,
@@ -545,7 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.babbel.BabbelFallingWordsQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -563,7 +571,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.babbel.BabbelFallingWordsQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

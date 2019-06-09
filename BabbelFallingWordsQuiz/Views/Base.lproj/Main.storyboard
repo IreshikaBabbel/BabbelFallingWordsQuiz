@@ -13,7 +13,7 @@
         <!--Play GameVC-->
         <scene sceneID="ZfC-TY-a5s">
             <objects>
-                <viewController id="HAe-6Z-zAS" customClass="PlayGameVC" customModule="BabbelFallingWords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HAe-6Z-zAS" customClass="PlayGameVC" customModule="BabbelFallingWordsQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ug-kd-e6a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,13 +110,12 @@ I liked Helvetica Neue which 00</string>
                                     <action selector="onFalseAnswerButtonTouch:" destination="HAe-6Z-zAS" eventType="touchUpInside" id="9RW-uG-9yM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cd-zt-0hH">
-                                <rect key="frame" x="157" y="702" width="100" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/34" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="1Cd-zt-0hH">
+                                <rect key="frame" x="50" y="702" width="314" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="5wO-rp-hVY"/>
                                     <constraint firstAttribute="height" constant="100" id="aF7-uU-QZH"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="80"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="40"/>
                                 <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -129,6 +128,8 @@ I liked Helvetica Neue which 00</string>
                             <constraint firstItem="aTl-HJ-Z0P" firstAttribute="trailing" secondItem="l26-tN-RFE" secondAttribute="trailing" constant="30" id="8jJ-Nf-S0B"/>
                             <constraint firstItem="l26-tN-RFE" firstAttribute="centerX" secondItem="8Ug-kd-e6a" secondAttribute="centerX" id="95D-Dj-r8h"/>
                             <constraint firstItem="nn5-ja-rZu" firstAttribute="leading" secondItem="aTl-HJ-Z0P" secondAttribute="leading" id="Ksp-X2-9Qh"/>
+                            <constraint firstItem="aTl-HJ-Z0P" firstAttribute="trailing" secondItem="1Cd-zt-0hH" secondAttribute="trailing" constant="50" id="QV4-1T-qiD"/>
+                            <constraint firstItem="1Cd-zt-0hH" firstAttribute="leading" secondItem="aTl-HJ-Z0P" secondAttribute="leading" constant="50" id="R5n-ay-kiB"/>
                             <constraint firstItem="Fhd-ZP-aUb" firstAttribute="top" secondItem="yir-Eb-VFb" secondAttribute="top" id="X3r-MD-NbX"/>
                             <constraint firstItem="l26-tN-RFE" firstAttribute="leading" secondItem="aTl-HJ-Z0P" secondAttribute="leading" constant="30" id="X84-hR-c8t"/>
                             <constraint firstItem="yir-Eb-VFb" firstAttribute="trailing" secondItem="l26-tN-RFE" secondAttribute="trailing" constant="-30" id="XPu-gN-Y9i"/>
@@ -172,6 +173,104 @@ I liked Helvetica Neue which 00</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zpw-2Q-5BA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="947.82608695652186" y="18.75"/>
+        </scene>
+        <!--User FeedbackVC-->
+        <scene sceneID="8zw-GX-p00">
+            <objects>
+                <viewController storyboardIdentifier="UserFeedbackVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="soP-ae-9t7" customClass="UserFeedbackVC" customModule="BabbelFallingWords" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GAP-Jn-yyp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p5D-p3-IaN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWW-3M-a5I">
+                                <rect key="frame" x="30" y="274.5" width="354" height="347"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold Medal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="PrE-43-IWg">
+                                        <rect key="frame" x="20" y="20" width="314" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="BAr-gD-88S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="59"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggI-nU-Oxu">
+                                        <rect key="frame" x="30" y="110" width="294" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="5Pt-JF-6c7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4f-O6-Y7P">
+                                        <rect key="frame" x="77" y="257" width="200" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Ih0-8S-X3j"/>
+                                            <constraint firstAttribute="width" constant="200" id="Pj0-dm-ja5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="42"/>
+                                        <state key="normal" title="Retry">
+                                            <color key="titleColor" red="0.090196078431372548" green="0.12549019607843137" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onRetryButtonTouch:" destination="soP-ae-9t7" eventType="touchUpInside" id="MMU-CU-HnI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.792156862745098" green="0.43529411764705883" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="347" id="2Og-h2-glu"/>
+                                    <constraint firstAttribute="trailing" secondItem="PrE-43-IWg" secondAttribute="trailing" constant="20" id="Cg9-QO-Kdh"/>
+                                    <constraint firstItem="PrE-43-IWg" firstAttribute="centerX" secondItem="qWW-3M-a5I" secondAttribute="centerX" id="H7a-ap-vyz"/>
+                                    <constraint firstAttribute="trailing" secondItem="ggI-nU-Oxu" secondAttribute="trailing" constant="30" id="H7y-Ok-XBb"/>
+                                    <constraint firstItem="ggI-nU-Oxu" firstAttribute="leading" secondItem="qWW-3M-a5I" secondAttribute="leading" constant="30" id="I1E-26-Jsi"/>
+                                    <constraint firstItem="PrE-43-IWg" firstAttribute="leading" secondItem="qWW-3M-a5I" secondAttribute="leading" constant="20" id="U3D-gJ-wwD"/>
+                                    <constraint firstItem="PrE-43-IWg" firstAttribute="top" secondItem="qWW-3M-a5I" secondAttribute="top" constant="20" id="Uhw-no-dqd"/>
+                                    <constraint firstItem="ggI-nU-Oxu" firstAttribute="centerX" secondItem="qWW-3M-a5I" secondAttribute="centerX" id="cIN-GP-fZ3"/>
+                                    <constraint firstItem="b4f-O6-Y7P" firstAttribute="centerX" secondItem="qWW-3M-a5I" secondAttribute="centerX" id="rHy-kv-JDB"/>
+                                    <constraint firstItem="ggI-nU-Oxu" firstAttribute="top" secondItem="PrE-43-IWg" secondAttribute="bottom" constant="30" id="rMt-iW-vR7"/>
+                                    <constraint firstAttribute="bottom" secondItem="b4f-O6-Y7P" secondAttribute="bottom" constant="30" id="rO2-QM-baV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p5D-p3-IaN" firstAttribute="leading" secondItem="meS-2W-L8P" secondAttribute="leading" id="20g-M2-T2Y"/>
+                            <constraint firstItem="meS-2W-L8P" firstAttribute="trailing" secondItem="p5D-p3-IaN" secondAttribute="trailing" id="2Z8-il-GW2"/>
+                            <constraint firstItem="qWW-3M-a5I" firstAttribute="centerY" secondItem="GAP-Jn-yyp" secondAttribute="centerY" id="QOK-Ho-Qrs"/>
+                            <constraint firstItem="p5D-p3-IaN" firstAttribute="top" secondItem="meS-2W-L8P" secondAttribute="top" id="Y3o-6L-hQz"/>
+                            <constraint firstItem="meS-2W-L8P" firstAttribute="bottom" secondItem="p5D-p3-IaN" secondAttribute="bottom" id="YBv-Ha-AAL"/>
+                            <constraint firstItem="qWW-3M-a5I" firstAttribute="centerX" secondItem="GAP-Jn-yyp" secondAttribute="centerX" id="bLg-2U-YNk"/>
+                            <constraint firstItem="qWW-3M-a5I" firstAttribute="leading" secondItem="meS-2W-L8P" secondAttribute="leading" constant="30" id="k09-7p-Wsh"/>
+                            <constraint firstItem="meS-2W-L8P" firstAttribute="trailing" secondItem="qWW-3M-a5I" secondAttribute="trailing" constant="30" id="rHP-i6-Y1q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="meS-2W-L8P"/>
+                    </view>
+                    <connections>
+                        <outlet property="medalStatusLabel" destination="PrE-43-IWg" id="3ut-kG-zSs"/>
+                        <outlet property="retryButton" destination="b4f-O6-Y7P" id="Gd3-O9-nh4"/>
+                        <outlet property="scorePercentageLabel" destination="ggI-nU-Oxu" id="Vyd-IC-Tfo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rp-Bh-wbt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2617" y="12"/>
         </scene>
     </scenes>
     <resources>

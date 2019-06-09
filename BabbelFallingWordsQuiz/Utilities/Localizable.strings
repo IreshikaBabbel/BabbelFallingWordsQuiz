@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  BabbelFallingWordsQuiz
+
+  Created by Ireshika on 09.06.19.
+  Copyright © 2019 Ireshika Piyumalie. All rights reserved.
+*/
+"GoldMedal" = "Gold Medal !";
+"SilverMedal" = "Silver Medal !";
+"BronzeMedal" = "Bronze Medal !";
+"EmptyMedal" = "Try Harder !";
+"Score" = "Score:";

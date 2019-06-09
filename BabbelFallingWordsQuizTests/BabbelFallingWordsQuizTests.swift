@@ -11,24 +11,35 @@ import XCTest
 
 class BabbelFallingWordsQuizTests: XCTestCase {
 
+    var manager: PlayGameManager!
+    var languageModel = [WordDataModel]()
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        manager = PlayGameManager()
     }
-
+    
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testReadLanguageDataFromJsonSuccess() {
+        manager.readLanguageDataFromJson().then{returnedModelArr in
+            self.languageModel = returnedModelArr
         }
+        XCTAssertNotNil(languageModel.count)
     }
-
+    
+    func testSetTotalScoreAccordingToUserTapSuccess() {
+        manager.totalScore = 10
+        let totalScoreTest  = manager.setTotalScoreAccordingToUserTap(scoreVal: 5)
+        XCTAssertEqual(Int(totalScoreTest), 15)
+    }
+    
+    func testSetPercentageOfTotalScoreSuccess() {
+        manager.totalScore = 5
+        let totalScoreTest  = manager.setPercentageOfTotalScore(totalModelCount: 10)
+        XCTAssertEqual(Int(totalScoreTest), 50)
+    }
+    
 }

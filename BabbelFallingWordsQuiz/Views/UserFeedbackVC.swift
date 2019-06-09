@@ -51,7 +51,7 @@ class UserFeedbackVC: UIViewController {
             medalTextColor = UIColor(red: 176/255, green: 141/255, blue: 87/255, alpha: 1)
         case 51...70:
             userScoredVal = NSLocalizedString("SilverMedal", comment: "")
-            medalTextColor = UIColor(red: 196/255, green: 202/255, blue: 206/255, alpha: 1)
+            medalTextColor = UIColor(red: 113/255, green: 125/255, blue: 126/255, alpha: 1)
         case 71...100:
             userScoredVal = NSLocalizedString("GoldMedal", comment: "")
             medalTextColor = UIColor(red: 212/255, green: 175/255, blue: 55/255, alpha: 1)

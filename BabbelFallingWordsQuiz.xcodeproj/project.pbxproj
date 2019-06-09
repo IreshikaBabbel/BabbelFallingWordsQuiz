@@ -14,6 +14,7 @@
 		8806E5C022AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5BF22AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift */; };
 		8806E5D222AD332E0039D64D /* PlayGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5D122AD332E0039D64D /* PlayGameVC.swift */; };
 		8806E5D422AD39990039D64D /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5D322AD39990039D64D /* words.json */; };
+		8806E5D622AD39E00039D64D /* WordDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5D522AD39E00039D64D /* WordDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8806E5C122AD30CB0039D64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8806E5D122AD332E0039D64D /* PlayGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameVC.swift; sourceTree = "<group>"; };
 		8806E5D322AD39990039D64D /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		8806E5D522AD39E00039D64D /* WordDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		8806E5CE22AD31000039D64D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8806E5D522AD39E00039D64D /* WordDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8806E5D222AD332E0039D64D /* PlayGameVC.swift in Sources */,
+				8806E5D622AD39E00039D64D /* WordDataModel.swift in Sources */,
 				8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

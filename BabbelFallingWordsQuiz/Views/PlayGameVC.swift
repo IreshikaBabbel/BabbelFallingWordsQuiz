@@ -2,7 +2,7 @@
 //  PlayGameVC.swift
 //  BabbelFallingWordsQuiz
 //
-//  Created by Bhashitha on 09.06.19.
+//  Created by Ireshika on 09.06.19.
 //  Copyright © 2019 Ireshika Piyumalie. All rights reserved.
 //
 

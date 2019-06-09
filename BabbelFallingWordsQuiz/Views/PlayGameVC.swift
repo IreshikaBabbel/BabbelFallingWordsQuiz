@@ -8,10 +8,11 @@
 
 import UIKit
 
-class PlayGameVC: UIViewController, UserRetryDelegate {
+class PlayGameVC: UIViewController, UserRetryDelegate, CAAnimationDelegate{
 
     // MARK: - UIView properties
     
+    @IBOutlet weak var defaultLangContainerView: UIView!
     @IBOutlet weak var totalResultTextLabel: UILabel!
     @IBOutlet weak var defaultLangTextLabel: UILabel!
     @IBOutlet weak var falseAnswerButton: UIButton!
@@ -63,7 +64,8 @@ class PlayGameVC: UIViewController, UserRetryDelegate {
     
     @IBAction func onFalseAnswerButtonTouch(_ sender: UIButton) {
         self.getResultForAnswer(isAnswerTrue: false)
-        self.setUIIterationOfSecondaryLangUI()
+        self.resetExsistingAnimation()
+        self.defaultLangContainerView.layer.add(self.getShakeAnimation(), forKey: "shake")
     }
     
     // MARK: - Animation UI Implentation
@@ -80,7 +82,7 @@ class PlayGameVC: UIViewController, UserRetryDelegate {
             
         }, completion: { _ in
             self.getResultForAnswer(isAnswerTrue: false)
-            self.setUIIterationOfSecondaryLangUI()
+            self.defaultLangContainerView.layer.add(self.getShakeAnimation(), forKey: "shake")
         })
     }
     
@@ -92,6 +94,20 @@ class PlayGameVC: UIViewController, UserRetryDelegate {
         fallingCustomView.clipsToBounds = true
         fallingCustomView.center.x = view.center.x
         return fallingCustomView
+    }
+    
+    func getShakeAnimation() -> CAKeyframeAnimation
+    {
+        let animation = CAKeyframeAnimation(keyPath: "transform.translation.x")
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
+        animation.duration = 0.6
+        animation.values = [-20.0, 20.0, -20.0, 20.0, -10.0, 10.0, -5.0, 5.0, 0.0 ]
+        animation.delegate = self
+        return animation
+    }
+    
+    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+        self.setUIIterationOfSecondaryLangUI()
     }
     
     // MARK: - Animation Logic Implentation

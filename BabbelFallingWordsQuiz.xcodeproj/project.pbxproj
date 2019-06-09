@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5AA22AD30C70039D64D /* AppDelegate.swift */; };
+		8806E5AD22AD30C70039D64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5AC22AD30C70039D64D /* ViewController.swift */; };
+		8806E5B022AD30C70039D64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5AE22AD30C70039D64D /* Main.storyboard */; };
+		8806E5B222AD30CB0039D64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5B122AD30CB0039D64D /* Assets.xcassets */; };
+		8806E5B522AD30CB0039D64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5B322AD30CB0039D64D /* LaunchScreen.storyboard */; };
+		8806E5C022AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5BF22AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8806E5BC22AD30CB0039D64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8806E59F22AD30C70039D64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8806E5A622AD30C70039D64D;
+			remoteInfo = BabbelFallingWordsQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8806E5A722AD30C70039D64D /* BabbelFallingWordsQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabbelFallingWordsQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8806E5AA22AD30C70039D64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8806E5AC22AD30C70039D64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8806E5AF22AD30C70039D64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8806E5B122AD30CB0039D64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8806E5B422AD30CB0039D64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8806E5B622AD30CB0039D64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8806E5BB22AD30CB0039D64D /* BabbelFallingWordsQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabbelFallingWordsQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8806E5BF22AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelFallingWordsQuizTests.swift; sourceTree = "<group>"; };
+		8806E5C122AD30CB0039D64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8806E5A422AD30C70039D64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8806E5B822AD30CB0039D64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8806E59E22AD30C70039D64D = {
+			isa = PBXGroup;
+			children = (
+				8806E5A922AD30C70039D64D /* BabbelFallingWordsQuiz */,
+				8806E5BE22AD30CB0039D64D /* BabbelFallingWordsQuizTests */,
+				8806E5A822AD30C70039D64D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8806E5A822AD30C70039D64D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8806E5A722AD30C70039D64D /* BabbelFallingWordsQuiz.app */,
+				8806E5BB22AD30CB0039D64D /* BabbelFallingWordsQuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8806E5A922AD30C70039D64D /* BabbelFallingWordsQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				8806E5AA22AD30C70039D64D /* AppDelegate.swift */,
+				8806E5AC22AD30C70039D64D /* ViewController.swift */,
+				8806E5AE22AD30C70039D64D /* Main.storyboard */,
+				8806E5B122AD30CB0039D64D /* Assets.xcassets */,
+				8806E5B322AD30CB0039D64D /* LaunchScreen.storyboard */,
+				8806E5B622AD30CB0039D64D /* Info.plist */,
+			);
+			path = BabbelFallingWordsQuiz;
+			sourceTree = "<group>";
+		};
+		8806E5BE22AD30CB0039D64D /* BabbelFallingWordsQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				8806E5BF22AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift */,
+				8806E5C122AD30CB0039D64D /* Info.plist */,
+			);
+			path = BabbelFallingWordsQuizTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8806E5A622AD30C70039D64D /* BabbelFallingWordsQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8806E5C422AD30CB0039D64D /* Build configuration list for PBXNativeTarget "BabbelFallingWordsQuiz" */;
+			buildPhases = (
+				8806E5A322AD30C70039D64D /* Sources */,
+				8806E5A422AD30C70039D64D /* Frameworks */,
+				8806E5A522AD30C70039D64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabbelFallingWordsQuiz;
+			productName = BabbelFallingWordsQuiz;
+			productReference = 8806E5A722AD30C70039D64D /* BabbelFallingWordsQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8806E5BA22AD30CB0039D64D /* BabbelFallingWordsQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8806E5C722AD30CB0039D64D /* Build configuration list for PBXNativeTarget "BabbelFallingWordsQuizTests" */;
+			buildPhases = (
+				8806E5B722AD30CB0039D64D /* Sources */,
+				8806E5B822AD30CB0039D64D /* Frameworks */,
+				8806E5B922AD30CB0039D64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8806E5BD22AD30CB0039D64D /* PBXTargetDependency */,
+			);
+			name = BabbelFallingWordsQuizTests;
+			productName = BabbelFallingWordsQuizTests;
+			productReference = 8806E5BB22AD30CB0039D64D /* BabbelFallingWordsQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8806E59F22AD30C70039D64D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ireshika Piyumalie";
+				TargetAttributes = {
+					8806E5A622AD30C70039D64D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8806E5BA22AD30CB0039D64D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8806E5A622AD30C70039D64D;
+					};
+				};
+			};
+			buildConfigurationList = 8806E5A222AD30C70039D64D /* Build configuration list for PBXProject "BabbelFallingWordsQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8806E59E22AD30C70039D64D;
+			productRefGroup = 8806E5A822AD30C70039D64D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8806E5A622AD30C70039D64D /* BabbelFallingWordsQuiz */,
+				8806E5BA22AD30CB0039D64D /* BabbelFallingWordsQuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8806E5A522AD30C70039D64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806E5B522AD30CB0039D64D /* LaunchScreen.storyboard in Resources */,
+				8806E5B222AD30CB0039D64D /* Assets.xcassets in Resources */,
+				8806E5B022AD30C70039D64D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8806E5B922AD30CB0039D64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8806E5A322AD30C70039D64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806E5AD22AD30C70039D64D /* ViewController.swift in Sources */,
+				8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8806E5B722AD30CB0039D64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806E5C022AD30CB0039D64D /* BabbelFallingWordsQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8806E5BD22AD30CB0039D64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8806E5A622AD30C70039D64D /* BabbelFallingWordsQuiz */;
+			targetProxy = 8806E5BC22AD30CB0039D64D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8806E5AE22AD30C70039D64D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8806E5AF22AD30C70039D64D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8806E5B322AD30CB0039D64D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8806E5B422AD30CB0039D64D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8806E5C222AD30CB0039D64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8806E5C322AD30CB0039D64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8806E5C522AD30CB0039D64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabbelFallingWordsQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.babbel.BabbelFallingWordsQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8806E5C622AD30CB0039D64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabbelFallingWordsQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.babbel.BabbelFallingWordsQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8806E5C822AD30CB0039D64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabbelFallingWordsQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.babbel.BabbelFallingWordsQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabbelFallingWordsQuiz.app/BabbelFallingWordsQuiz";
+			};
+			name = Debug;
+		};
+		8806E5C922AD30CB0039D64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabbelFallingWordsQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.babbel.BabbelFallingWordsQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabbelFallingWordsQuiz.app/BabbelFallingWordsQuiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8806E5A222AD30C70039D64D /* Build configuration list for PBXProject "BabbelFallingWordsQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8806E5C222AD30CB0039D64D /* Debug */,
+				8806E5C322AD30CB0039D64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8806E5C422AD30CB0039D64D /* Build configuration list for PBXNativeTarget "BabbelFallingWordsQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8806E5C522AD30CB0039D64D /* Debug */,
+				8806E5C622AD30CB0039D64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8806E5C722AD30CB0039D64D /* Build configuration list for PBXNativeTarget "BabbelFallingWordsQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8806E5C822AD30CB0039D64D /* Debug */,
+				8806E5C922AD30CB0039D64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8806E59F22AD30C70039D64D /* Project object */;
+}

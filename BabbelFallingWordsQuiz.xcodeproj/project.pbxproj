@@ -15,6 +15,7 @@
 		8806E5D222AD332E0039D64D /* PlayGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5D122AD332E0039D64D /* PlayGameVC.swift */; };
 		8806E5D422AD39990039D64D /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 8806E5D322AD39990039D64D /* words.json */; };
 		8806E5D622AD39E00039D64D /* WordDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5D522AD39E00039D64D /* WordDataModel.swift */; };
+		8806E5D822AD3CD90039D64D /* PlayGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806E5D722AD3CD90039D64D /* PlayGameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8806E5D122AD332E0039D64D /* PlayGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameVC.swift; sourceTree = "<group>"; };
 		8806E5D322AD39990039D64D /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
 		8806E5D522AD39E00039D64D /* WordDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDataModel.swift; sourceTree = "<group>"; };
+		8806E5D722AD3CD90039D64D /* PlayGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		8806E5CC22AD30E80039D64D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				8806E5D722AD3CD90039D64D /* PlayGameManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				8806E5D222AD332E0039D64D /* PlayGameVC.swift in Sources */,
 				8806E5D622AD39E00039D64D /* WordDataModel.swift in Sources */,
 				8806E5AB22AD30C70039D64D /* AppDelegate.swift in Sources */,
+				8806E5D822AD3CD90039D64D /* PlayGameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

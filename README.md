@@ -5,7 +5,7 @@ https://github.com/IreshikaBabbel/BabbelFallingWordsQuiz
 git clone: https://github.com/IreshikaBabbel/BabbelFallingWordsQuiz.git
 
 Instructions to project run
-Please open the project from BabbelFallingWordsQuiz-master-> BabbelFallingWordsQuiz
+Please open the project from BabbelFallingWordsQuiz-master-> BabbelFallingWordsQuiz.xcworkspace
 
 Problem 
 

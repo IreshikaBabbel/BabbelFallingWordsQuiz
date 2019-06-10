@@ -1,3 +1,9 @@
+Project Clone/ Download
+
+Project is publicly available in below GitHib location
+https://github.com/IreshikaBabbel/BabbelFallingWordsQuiz
+git clone: https://github.com/IreshikaBabbel/BabbelFallingWordsQuiz.git
+
 Instructions to project run
 Please open the project from BabbelFallingWordsQuiz-master-> BabbelFallingWordsQuiz
 
